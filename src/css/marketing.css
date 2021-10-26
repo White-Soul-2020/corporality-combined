@@ -1,0 +1,89 @@
+.main-marketing {
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.marketing-col1 {
+  margin-left: -11%;
+}
+.marketing-col2 {
+  /* background-color: red; */
+  width: 200%;
+  margin-left: 8%;
+  padding-left: 9%;
+}
+.marketing-h4 {
+  width: 397px;
+  height: 84px;
+  left: 700px;
+  top: 4193px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #3c708e;
+}
+.marketing-p1 {
+  width: 598px;
+  height: 156px;
+  left: 702px;
+  top: 4289px;
+  padding-right: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+}
+.marketing-sub-h5 {
+  width: 150px;
+  height: 26px;
+  left: 702px;
+  top: 4466px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3c708e;
+}
+.marketing-p2 {
+  width: 598px;
+  height: 78px;
+  left: 702px;
+  top: 4708px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+}
+.marketing-our_strategies-li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.marketing-key-img {
+  margin-left: -1.4%;
+}
+
+.marketing-li_element {
+  width: 535px;
+  margin-top: -24px;
+  margin-left: 30.5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  color: #757575;
+}

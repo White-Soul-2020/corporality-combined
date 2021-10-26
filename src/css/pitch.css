@@ -1,0 +1,1277 @@
+.pitch-area {
+  /* position: absolute; */
+  /* margin-left: 50%; */
+  margin-top: -200px;
+  /* background: url(../img/perfect-scenario/pitch_bg.png); */
+  background-size: 1120px;
+  background-position: 105px 330px;
+  background-repeat: no-repeat;
+  height: 1200px;
+}
+.pitch-bg {
+  margin-top: 180px;
+  z-index: 2;
+  margin-left: -9%;
+}
+.ml7-pitch {
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #3c708e;
+  /* font-weight: 900;
+  font-size: 3.7em; */
+}
+.ml7-pitch .text-wrapper-pitch {
+  position: relative;
+  display: inline-block;
+  /* padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em; */
+  margin-left: 0.8%;
+  overflow: hidden;
+}
+.ml7-pitch .letter-pitch {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  transform-origin: 0 100%;
+  display: inline-block;
+  /* line-height: 1em; */
+  color: #3c708e;
+  /* margin-left: 0.5%; */
+}
+.pitch-h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #3c708e;
+  margin-left: 0.5%;
+}
+
+.pitch-p {
+  width: 930px;
+  height: 78px;
+  /* left: 244px;
+    top: 765px; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  margin-left: 12%;
+  text-align: center;
+
+  color: #757575;
+}
+
+.card-container {
+  align-items: start;
+  display: grid;
+  /* grid-gap: 16px; */
+  grid-column-gap: 11px;
+  grid-row-gap: 40px;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(auto-fit, 315px);
+  /* 315 */
+  justify-content: center;
+  margin-left: 7%;
+  /* margin-top: -8% */
+  /* margin-top: 2%; */
+  padding-bottom: 1%;
+  /* padding-right: 0%; */
+}
+
+.card-container-1 {
+  align-items: start;
+  display: grid;
+  /* grid-gap: 16px; */
+  grid-column-gap: 11px;
+  grid-row-gap: 40px;
+  grid-template-columns: repeat(auto-fit, 315px);
+  justify-content: center;
+  margin-left: -1%;
+  margin-top: -11.3%;
+  /* margin-top:-10.5%; */
+}
+
+.card-container-2 {
+  align-items: start;
+  display: grid;
+  /* grid-gap: 16px; */
+  grid-column-gap: 11px;
+  grid-row-gap: 40px;
+  grid-template-columns: repeat(auto-fit, 315px);
+  justify-content: center;
+  margin-left: -1%;
+  margin-top: -11.2%;
+}
+
+.card-container-3 {
+  align-items: start;
+  display: grid;
+  /* grid-gap: 16px; */
+  grid-column-gap: 11px;
+  grid-row-gap: 40px;
+  grid-template-columns: repeat(auto-fit, 315px);
+  justify-content: center;
+  margin-left: -1%;
+  margin-top: 1%;
+}
+
+/* card-1 */
+.card-1 {
+  background-color: #fff;
+  position: relative;
+  cursor: pointer;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  transition: 0.3s;
+  margin-left: -15%;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-1:hover {
+  transform: translate(0, -10px);
+}
+.card-2 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 10px 0 0px 0px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: -55%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+
+.card-2:hover {
+  transform: translate(0, -10px);
+}
+.card-3 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: -95%;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-3:hover {
+  transform: translate(0, -10px);
+}
+.card-4 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-top: -72.7%;
+  margin-left: 175.9%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+.card-4:hover {
+  transform: translate(0, -10px);
+}
+.card-5 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-top: -72.7%;
+  margin-left: 136.2%;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-5:hover {
+  transform: translate(0, -10px);
+}
+.card-6 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-top: -72.7%;
+  margin-left: 96.2%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+.card-6:hover {
+  transform: translate(0, -10px);
+}
+.card-1-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 21%;
+}
+
+.card-2-h3 {
+  width: 120px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 14%;
+}
+.card-3-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 19%;
+}
+.card-4-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-5-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-6-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.card-1-img {
+  margin-top: -4%;
+  margin-left: 2%;
+}
+.card-2-img {
+  margin-top: -4%;
+  margin-left: 3%;
+}
+
+.card-3-img {
+  margin-top: -4%;
+  margin-left: 2%;
+}
+.card-4-img {
+  margin-top: -4%;
+  margin-left: 1%;
+}
+.card-5-img {
+  margin-top: -4%;
+  margin-left: 1%;
+}
+.card-6-img {
+  margin-top: -4%;
+}
+
+/* card-2 */
+
+.card-7 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-7:hover {
+  transform: translate(0, -10px);
+}
+.card-8 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: -39.5%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+.card-8:hover {
+  transform: translate(0, -10px);
+}
+
+.card-9 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: -79.4%;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-9:hover {
+  transform: translate(0, -10px);
+}
+
+.card-10 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: 191%;
+  margin-top: -72.7%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+.card-10:hover {
+  transform: translate(0, -10px);
+}
+
+.card-11 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: 151%;
+  margin-top: -72.7%;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-11:hover {
+  transform: translate(0, -10px);
+}
+
+.card-12 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-top: -72.7%;
+  margin-left: 111%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+.card-12:hover {
+  transform: translate(0, -10px);
+}
+
+.card-7-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.card-8-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-9-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-10-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-11-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-12-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.card-7-img {
+  margin-top: -4%;
+}
+.card-8-img {
+  margin-top: -4%;
+}
+
+.card-9-img {
+  margin-top: -4%;
+}
+.card-10-img {
+  margin-top: -4%;
+}
+.card-11-img {
+  margin-top: -4%;
+}
+.card-12-img {
+  margin-top: -4%;
+}
+
+/* card-3 */
+
+.card-13 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-13:hover {
+  transform: translate(0, -10px);
+}
+
+.card-14 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: -39%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+.card-14:hover {
+  transform: translate(0, -10px);
+}
+
+.card-15 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: -78.6%;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-15:hover {
+  transform: translate(0, -10px);
+}
+
+.card-16 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: 192%;
+  margin-top: -72.7%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+.card-16:hover {
+  transform: translate(0, -10px);
+}
+
+.card-17 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: 152%;
+  margin-top: -72.7%;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-17:hover {
+  transform: translate(0, -10px);
+}
+
+.card-13-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-14-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-15-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-16-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-17-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.card-13-img {
+  margin-top: -4%;
+}
+.card-14-img {
+  margin-top: -4%;
+}
+
+.card-15-img {
+  margin-top: -4%;
+}
+.card-16-img {
+  margin-top: -4%;
+}
+.card-17-img {
+  margin-top: -4%;
+}
+
+/* card-4 */
+
+.card-18 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+
+.card-18:hover {
+  transform: translate(0, -10px);
+}
+
+.card-19 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: -39%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+.card-19:hover {
+  transform: translate(0, -10px);
+}
+
+.card-20 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: -78.6%;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-20:hover {
+  transform: translate(0, -10px);
+}
+
+.card-21 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: 192%;
+  margin-top: -72.7%;
+  transition: 0.3s;
+  animation: card-1 2s infinite 2s ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: 30px;
+  }
+  to {
+    left: 0;
+    bottom: -30px;
+  }
+}
+.card-21:hover {
+  transform: translate(0, -10px);
+}
+
+.card-22 {
+  background-color: #fff;
+  position: relative;
+  color: white;
+  padding: 24px 0 16px;
+  text-align: center;
+  box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  width: 170px;
+  height: 190px;
+  border-radius: 10px;
+  margin-left: 152%;
+  margin-top: -72.7%;
+  transition: 0.3s;
+  animation: card-1 2s infinite ease-in-out alternate;
+}
+@keyframes card-1 {
+  from {
+    left: 0;
+    bottom: -30px;
+  }
+  to {
+    left: 0;
+    bottom: 30px;
+  }
+}
+.card-22:hover {
+  transform: translate(0, -10px);
+}
+
+.card-18-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-19-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-20-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-21-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+.card-22-h3 {
+  width: 100px;
+  height: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  /* letter-spacing: 0.045em; */
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  text-align: center;
+  color: #a06daf;
+  margin-top: 15%;
+  margin-left: 20%;
+}
+
+.card-18-img {
+  margin-top: -4%;
+}
+.card-19-img {
+  margin-top: -4%;
+}
+
+.card-20-img {
+  margin-top: -4%;
+}
+.card-21-img {
+  margin-top: -4%;
+}
+.card-22-img {
+  margin-top: -4%;
+}
+.first-card-h3 {
+  width: 212px;
+  height: 44px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a06daf;
+  /* background-color: red; */
+  /* margin-top: 8%; */
+  margin: -884px 0px -113px 0px;
+  margin-left: -7%;
+  /* padding-right: 5px;
+  margin-right: -1200px; */
+  /* text-align: center; */
+}
+.second-card-h3 {
+  width: 212px;
+  height: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a06daf;
+  /* background-color: red; */
+  /* padding-right: 5px; */
+  margin: 65px 0px 36px 0px;
+  background-color: #fff;
+  margin-left: -5.5%;
+}
+.third-card-h3 {
+  width: 225px;
+  height: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a06daf;
+  /* background-color: red; */
+  /* padding-right: 5px; */
+  /* margin-top: 10%; */
+  margin: 70px 0px 43px 0px;
+  background-color: #fff;
+  margin-left: -7.3%;
+}
+.fourth-card-h3 {
+  width: 260px;
+  height: 34px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a06daf;
+  /* background-color: red; */
+  /* padding-right: 7px; */
+  background-color: #fff;
+  margin-top: -14.5%;
+  margin-left: -8.2%;
+}
+
+.pitch-line-img {
+  margin-left: 23%;
+  margin-top: -81%;
+}
