@@ -4,6 +4,8 @@ import '../css/style.css';
 import '../css/blueprint.css';
 import '../css/key.css';
 import '../css/marketing.css';
+import '../css/marketing_scroll.css';
+import '../css/marketing_simple.css';
 import '../css/pitch.css';
 import '../css/process-animate.css';
 import '../css/process.css';
@@ -92,38 +94,38 @@ function HomePage() {
                   <span className="letters-pitch">FROM PITCH TO PICTURE PERFECT SCENARIO</span>
                 </span>
               </h4>
-              <p className="pitch-p" data-aos="fade-down" data-aos-easing="ease" data-aos-duration={2500}> The process of starting a digital media marketing with Corporality Global -An innovative lead generation and marketing company in Sydney, and approaching the right strategy can be highly intended to your true audience. We’ve created this service Edition to accompany founders in this journey, from getting their vision and approaching potential buyers' persona naturally.</p>
+              <p className="pitch-p"> The process of starting a digital media marketing with Corporality Global -An innovative lead generation and marketing company in Sydney, and approaching the right strategy can be highly intended to your true audience. We’ve created this service Edition to accompany founders in this journey, from getting their vision and approaching potential buyers' persona naturally.</p>
               <img src="./img/perfect-scenario/pitch_bg.png" className="pitch-bg" />
               <h3 className="first-card-h3">PLANNING PHASE</h3>
               {/* first row */}
               <div className="card-container">
                 {/* card-1 */}
-                <div className="card-1" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={500}>
+                <div className="card-1" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={500}>
                   <img src="./img/perfect-scenario/audit-1.png" className="card-1-img" />
                   <h3 className="card-1-h3">Marketing Audit</h3>
                 </div>
                 {/* card-2 */}
-                <div className="card-2" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={1000}>
+                <div className="card-2" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={1000}>
                   <img src="./img/perfect-scenario/browser.png" className="card-2-img" />
                   <h3 className="card-2-h3">Inbound Marketing Concept to proposed plan</h3>
                 </div>
                 {/* card-3 */}
-                <div className="card-3" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={1500}>
+                <div className="card-3" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={1500}>
                   <img src="./img/perfect-scenario/brain.png" className="card-3-img" />
                   <h3 className="card-3-h3">Master minding workshop</h3>
                 </div>
                 {/* card-4 */}
-                <div className="card-4" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={2000}>
+                <div className="card-4" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={2000}>
                   <img src="./img/perfect-scenario/presentation-1.png" className="card-4-img" />
                   <h3 className="card-4-h3">Presentation and Accountability</h3>
                 </div>
                 {/* card-5 */}
-                <div className="card-5" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={2500}>
+                <div className="card-5" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={2500}>
                   <img src="./img/perfect-scenario/talent-management-1.png" className="card-5-img" />
                   <h3 className="card-5-h3">Talent Alignment</h3>
                 </div>
                 {/* card-6 */}
-                <div className="card-6" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={3000}>
+                <div className="card-6" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={3000}>
                   <img src="./img/perfect-scenario/plan.png" className="card-6-img" />
                   <h3 className="card-6-h3">Strategy Preparation</h3>
                 </div>
@@ -132,32 +134,32 @@ function HomePage() {
               {/* second row */}
               <div className="card-container-1">
                 {/* card-1 */}
-                <div className="card-7" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={500}>
+                <div className="card-7" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={500}>
                   <img src="./img/perfect-scenario/interactive-1.png" className="card-7-img" />
                   <h3 className="card-7-h3">Channel Targeting</h3>
                 </div>
                 {/* card-2 */}
-                <div className="card-8" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={1000}>
+                <div className="card-8" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={1000}>
                   <img src="./img/perfect-scenario/digital-campaign-1.png" className="card-8-img" />
                   <h3 className="card-8-h3">Social Media Marketing Strategy</h3>
                 </div>
                 {/* card-3 */}
-                <div className="card-9" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={1500}>
+                <div className="card-9" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={1500}>
                   <img src="./img/perfect-scenario/content-1.png" className="card-9-img" />
                   <h3 className="card-9-h3">Content Strategy</h3>
                 </div>
                 {/* card-4 */}
-                <div className="card-10" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={2000}>
+                <div className="card-10" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={2000}>
                   <img src="./img/perfect-scenario/search-engine.png" className="card-10-img" />
                   <h3 className="card-10-h3">SEO Strategy</h3>
                 </div>
                 {/* card-5 */}
-                <div className="card-11" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={2500}>
+                <div className="card-11" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={2500}>
                   <img src="./img/perfect-scenario/seo-1.png" className="card-11-img" />
                   <h3 className="card-11-h3">Social Searches Strategy</h3>
                 </div>
                 {/* card-6 */}
-                <div className="card-12" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={3000}>
+                <div className="card-12" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={3000}>
                   <img src="./img/perfect-scenario/email-marketing-1.png" className="card-12-img" />
                   <h3 className="card-12-h3">Email Marketing Approach</h3>
                 </div>
@@ -166,27 +168,27 @@ function HomePage() {
               {/* third row */}
               <div className="card-container-2">
                 {/* card-1 */}
-                <div className="card-13" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={500}>
+                <div className="card-13" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={500}>
                   <img src="./img/perfect-scenario/search-5.png" className="card-13-img" />
                   <h3 className="card-13-h3">On-page SEO Implementation</h3>
                 </div>
                 {/* card-2 */}
-                <div className="card-14" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={1000}>
+                <div className="card-14" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={1000}>
                   <img src="./img/perfect-scenario/optimize-2.png" className="card-14-img" />
                   <h3 className="card-14-h3">Off-page SEO Action defined</h3>
                 </div>
                 {/* card-3 */}
-                <div className="card-15" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={1500}>
+                <div className="card-15" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={1500}>
                   <img src="./img/perfect-scenario/web-search-engine-1.png" className="card-15-img" />
                   <h3 className="card-15-h3">Search Engine Marketing</h3>
                 </div>
                 {/* card-4 */}
-                <div className="card-16" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={2000}>
+                <div className="card-16" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={2000}>
                   <img src="./img/perfect-scenario/blog-1.png" className="card-16-img" />
                   <h3 className="card-16-h3">Content Preparation</h3>
                 </div>
                 {/* card-5 */}
-                <div className="card-17" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={2500}>
+                <div className="card-17" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={2500}>
                   <img src="./img/perfect-scenario/test-3.png" className="card-17-img" />
                   <h3 className="card-17-h3">A/B Testing on Inbound Strategy</h3>
                 </div>
@@ -194,27 +196,27 @@ function HomePage() {
               {/* fourth row */}
               <div className="card-container-3">
                 {/* card-1 */}
-                <div className="card-18" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={500}>
+                <div className="card-18" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={500}>
                   <img src="./img/perfect-scenario/test-4.png" className="card-18-img" />
                   <h3 className="card-18-h3">Test, Tweak and treat</h3>
                 </div>
                 {/* card-2 */}
-                <div className="card-19" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={1000}>
+                <div className="card-19" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={1000}>
                   <img src="./img/perfect-scenario/growth.png" className="card-19-img" />
                   <h3 className="card-19-h3">Performance and Benchmarking</h3>
                 </div>
                 {/* card-3 */}
-                <div className="card-20" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={1500}>
+                <div className="card-20" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={1500}>
                   <img src="./img/perfect-scenario/graph.png" className="card-20-img" />
                   <h3 className="card-20-h3">Reporting and Feedback</h3>
                 </div>
                 {/* card-4 */}
-                <div className="card-21" data-aos="flip-left" data-aos-duration={2000} data-aos-delay={2000}>
+                <div className="card-21" data-aos="flip-left" data-aos-duration={3000} data-aos-delay={2000}>
                   <img src="./img/perfect-scenario/checklist.png" className="card-21-img" />
                   <h3 className="card-21-h3">ROI Evaluation</h3>
                 </div>
                 {/* card-5 */}
-                <div className="card-22" data-aos="flip-right" data-aos-duration={2000} data-aos-delay={2500}>
+                <div className="card-22" data-aos="flip-right" data-aos-duration={3000} data-aos-delay={2500}>
                   <img src="./img/perfect-scenario/3d-modeling-1.png" className="card-22-img" />
                   <h3 className="card-22-h3">Maturation Model</h3>
                 </div>
@@ -290,7 +292,9 @@ function HomePage() {
               {/* <h4 class="process-h4">THE PROCESS</h4> */}
               <h1 className="ml9-process">
                 <span className="text-wrapper-process">
-                  <span className="letters-process">THE PROCESS</span>
+                  <span className="letters-process">
+                    THE PROCESS
+                  </span>
                 </span>
               </h1>
               {/* <h5 class="ml2-process">THE PROCESS</h5> */}
@@ -303,7 +307,7 @@ function HomePage() {
                     <div className="content-inner fl-wrap">
                       <div className="content-front">
                         <div className="cf-inner">
-                          <div className="bg" style={{backgroundImage: 'url(./img/process/initial\ extraction.png)', backgroundPosition: '2px 60px'}} />
+                          <div className="bg" style={{backgroundImage: 'url("../img/process/initial\ extraction.png")', backgroundPosition: '2px 60px'}} />
                           <div className="overlay" />
                           <div className="inner">
                             <h2>INITIAL EXTRACTION</h2>
@@ -325,7 +329,7 @@ function HomePage() {
                     <div className="content-inner fl-wrap">
                       <div className="content-front">
                         <div className="cf-inner">
-                          <div className="bg " style={{backgroundImage: 'url(./img/process/competitive\ analysis.png)', backgroundPosition: '2px 60px'}} />
+                          <div className="bg " style={{backgroundImage: 'url("../img/process/competitive\ analysis.png")', backgroundPosition: '2px 60px'}} />
                           <div className="overlay" />
                           <div className="inner">
                             <h2>COMPETITIVE ANALYSIS</h2>
@@ -347,7 +351,7 @@ function HomePage() {
                     <div className="content-inner fl-wrap">
                       <div className="content-front">
                         <div className="cf-inner">
-                          <div className="bg" style={{backgroundImage: 'url(./img/process/high\ impact\ content.png)', backgroundPosition: '2px 55px'}} />
+                          <div className="bg" style={{backgroundImage: 'url("../img/process/high\ impact\ content.png")', backgroundPosition: '2px 55px'}} />
                           <div className="overlay" />
                           <div className="inner">
                             <h2>HIGH-IMPACT CONTENT</h2>
@@ -370,7 +374,7 @@ function HomePage() {
                     <div className="content-inner fl-wrap">
                       <div className="content-front">
                         <div className="cf-inner">
-                          <div className="bg" style={{backgroundImage: 'url(./img/process/layout\ and\ layers.png)', backgroundPosition: '2px 60px'}} />
+                          <div className="bg" style={{backgroundImage: 'url("../img/process/layout\ and\ layers.png")', backgroundPosition: '2px 60px'}} />
                           <div className="overlay" />
                           <div className="inner">
                             <h2>LAYOUT AND LAYERS</h2>
@@ -392,7 +396,7 @@ function HomePage() {
                     <div className="content-inner fl-wrap">
                       <div className="content-front">
                         <div className="cf-inner">
-                          <div className="bg " style={{backgroundImage: 'url(./img/process/sitemap.png)', backgroundPosition: '2px 60px'}} />
+                          <div className="bg " style={{backgroundImage: 'url("../img/process/sitemap.png")', backgroundPosition: '2px 60px'}} />
                           <div className="overlay" />
                           <div className="inner">
                             <h2>SITEMAP</h2>
@@ -424,7 +428,23 @@ function HomePage() {
             <div className="main-container"> {/*main container div*/}
               <div className="row">
                 <div className="col-6 marketing-col1">
-                  <img src="./img/marketing audit/marketing audit.png" className="marketing-img" data-aos="fade-left" data-aos-easing="ease" data-aos-duration={2500} />
+                  {/* <img src="./img/marketing audit/marketing audit.png" class="marketing-img"> */}
+                  {/* <img src="./img/marketing audit/Scope.png" class="scope-ma"> */}
+                  <header className="header show-on-scroll">
+                    <div className="main-photo" />
+                    {/* <h1 class="heading">When the moon hits your eye</h1> */}
+                    <img src="../img/marketing audit/Scope.png" className="scope-ma" /> 
+                    <img src="../img/marketing audit/Circle_ma.jpg" className="circle-ma" />
+                    <img src="../img/marketing audit/curve_ma.png" className="curve-ma" />
+                  </header>
+                  <div className="fade fade1"><img src="./img/marketing audit/card1_ma.png" className="card1-ma" /></div>
+                  <div className="fade fade2"><img src="./img/marketing audit/card2_ma.png" className="card2-ma" /></div>
+                  <div className="fade fade3"><img src="./img/marketing audit/card3_ma.png" className="card3-ma" /></div>
+                  <div className="fade fade4"><img src="./img/marketing audit/card4_ma.png" className="card4-ma" /></div>
+                  <div className="fade fade5"><img src="./img/marketing audit/LINE-1.png" className="line1-ma" /></div>
+                  <div className="fade fade6"><img src="./img/marketing audit/LINE-2.png" className="line2-ma" /></div>
+                  <div className="fade fade7"><img src="./img/marketing audit/LINE-3.png" className="line3-ma" /></div>
+                  <div className="fade fade8"><img src="./img/marketing audit/LINE-4.png" className="line4-ma" /></div>
                 </div>
                 <div className="col-6 marketing-col2">
                   <h4 className="marketing-h4" data-aos="fade-right" data-aos-easing="ease" data-aos-duration={2500}>MARKETING AUDIT AND RECOMMENDATIONS</h4>
@@ -498,6 +518,7 @@ function HomePage() {
             </div>{/*container div*/}
           </div>
         </section>
+        {/* ================ Key Objectives section end ================   */}
       </div>
     );
 }

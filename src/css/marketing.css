@@ -1,5 +1,5 @@
 .main-marketing {
-  margin-top: 50px;
+  margin-top: 100px;
   padding-bottom: 100px;
 }
 .marketing-col1 {
@@ -11,6 +11,171 @@
   margin-left: 8%;
   padding-left: 9%;
 }
+
+.scope-ma {
+  margin-left: 350px;
+  margin-top: 75px;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* animation-delay: 20s;
+  animation-duration: 20s; */
+}
+.circle-ma {
+  margin-left: 360px;
+  margin-top: 185px;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* animation-delay: 400s; */
+}
+.curve-ma {
+  margin-top: 220px;
+  margin-left: 355px;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.fade {
+  opacity: 1;
+}
+
+.card1-ma {
+  /* position: absolute; */
+  margin-top: 210px;
+  margin-left: 135px;
+  /* background-color: red; */
+  /* opacity: 1; */
+  /* animation: fadeInAnimation ease-in-out 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; */
+}
+/* @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    margin-top: -5px;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.card2-ma {
+  /* position: absolute; */
+  margin-top: -100px;
+  margin-left: 205px;
+  /* animation: fadeInAnimation ease-in-out 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; */
+}
+/* @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.card3-ma {
+  /* position: absolute; */
+  margin-top: -188px;
+  margin-left: 330px;
+  /* animation: fadeInAnimation ease-in-out 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; */
+}
+/* @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.card4-ma {
+  /* position: absolute; */
+  margin-top: -370px;
+  margin-left: 428px;
+  /* animation: fadeInAnimation ease-in-out 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; */
+}
+/* @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.line1-ma {
+  /* position: absolute; */
+  margin-top: -255px;
+  margin-left: 125px;
+  /* animation: fadeInAnimation ease-in-out 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; */
+  /* animation-delay: 4s; */
+}
+/* @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.line2-ma {
+  /* position: absolute; */
+  margin-top: -120px;
+  margin-left: 230px;
+  /* animation: fadeInAnimation ease-in-out 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; */
+  /* animation-delay: 4s; */
+}
+/* @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.line3-ma {
+  /* position: absolute; */
+  margin-top: -190px;
+  margin-left: 418px;
+  /* animation: fadeInAnimation ease-in-out 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; */
+  /* animation-delay: 4s; */
+}
+/* @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+.line4-ma {
+  /* position: absolute; */
+  margin-top: -430px;
+  margin-left: 545px;
+  /* animation: fadeInAnimation ease-in-out 3s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards; */
+  /* animation-delay: 4s; */
+}
+/* @keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
 .marketing-h4 {
   width: 397px;
   height: 84px;

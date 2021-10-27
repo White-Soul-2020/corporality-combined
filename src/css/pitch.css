@@ -49,6 +49,7 @@
   color: #3c708e;
   /* margin-left: 0.5%; */
 }
+
 .pitch-h4 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -152,11 +153,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-1:hover {
@@ -179,11 +180,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 
@@ -207,11 +208,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-3:hover {
@@ -235,11 +236,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 .card-4:hover {
@@ -263,11 +264,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-5:hover {
@@ -291,11 +292,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 .card-6:hover {
@@ -442,11 +443,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-7:hover {
@@ -469,11 +470,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 .card-8:hover {
@@ -497,11 +498,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-9:hover {
@@ -526,11 +527,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 .card-10:hover {
@@ -555,11 +556,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-11:hover {
@@ -584,11 +585,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 .card-12:hover {
@@ -731,11 +732,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-13:hover {
@@ -759,11 +760,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 .card-14:hover {
@@ -787,11 +788,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-15:hover {
@@ -816,11 +817,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 .card-16:hover {
@@ -845,11 +846,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-17:hover {
@@ -972,11 +973,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 
@@ -1001,11 +1002,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 .card-19:hover {
@@ -1029,11 +1030,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-20:hover {
@@ -1058,11 +1059,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
   to {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
 }
 .card-21:hover {
@@ -1087,11 +1088,11 @@
 @keyframes card-1 {
   from {
     left: 0;
-    bottom: -30px;
+    bottom: -3.5px;
   }
   to {
     left: 0;
-    bottom: 30px;
+    bottom: 3.5px;
   }
 }
 .card-22:hover {
