@@ -236,7 +236,7 @@ function HomePage() {
                   <div className="wrapper-blog">
                     <div className="fixed-wrapper-blog">
                       <div className="banner-left">
-                        <img src="./img/revamping/DesignThinking 1.png" className="img-revamping-main" />
+                        <img src="./img/revamping/DesignThinking1.gif" className="img-revamping-main" />
                       </div>
                     </div>{/*wrapper-div*/}
                   </div>{/*fixed-wrapper-div*/}
@@ -433,9 +433,9 @@ function HomePage() {
                   <header className="header show-on-scroll">
                     <div className="main-photo" />
                     {/* <h1 class="heading">When the moon hits your eye</h1> */}
-                    <img src="../img/marketing audit/Scope.png" className="scope-ma" /> 
-                    <img src="../img/marketing audit/Circle_ma.jpg" className="circle-ma" />
-                    <img src="../img/marketing audit/curve_ma.png" className="curve-ma" />
+                    <img src="./img/marketing audit/Scope.png" className="scope-ma" /> 
+                    <img src="./img/marketing audit/Circle_ma.jpg" className="circle-ma" />
+                    <img src="./img/marketing audit/curve_ma.png" className="curve-ma" />
                   </header>
                   <div className="fade fade1"><img src="./img/marketing audit/card1_ma.png" className="card1-ma" /></div>
                   <div className="fade fade2"><img src="./img/marketing audit/card2_ma.png" className="card2-ma" /></div>
@@ -512,7 +512,7 @@ function HomePage() {
                   <p className="key-p2" data-aos="fade-left" data-aos-easing="ease" data-aos-duration={2500}>A detailed marketing audit under your belt helps you provide marching orders that are strategically aligned towards your marketing goals.</p>
                 </div>
                 <div className="col-6 key-col2">
-                  <img src="./img/key objectives/objective.jpg" className="key-img" data-aos="fade-right" data-aos-easing="ease" data-aos-duration={2500} />
+                  <img src="./img/key objectives/objective.gif" className="key-img" data-aos="fade-right" data-aos-easing="ease" data-aos-duration={2500} />
                 </div>
               </div>      
             </div>{/*container div*/}
