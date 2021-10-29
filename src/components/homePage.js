@@ -11,14 +11,32 @@ import '../css/process-animate.css';
 import '../css/process.css';
 import '../css/revamping.css';
 
-import AOS from 'aos'; 
+import { banner } from '../js/banner';
+import { blueprint } from '../js/blueprint';
+import { marketing } from '../js/marketing';
+import { nav_res } from '../js/nav_res';
+import { pitch } from '../js/pitch';
+import { process } from '../js/process';
+import { revamping } from '../js/revamping';
+import { script } from '../js/script';
 
+import AOS from 'aos'; 
+import anime from 'animejs';
 
 function HomePage() {
+  
     useEffect(() =>{
       AOS.init();
-      document.title = "Home"
-    }, []);
+      banner();
+      blueprint();
+      marketing();
+      // nav();
+      nav_res();
+      pitch();
+      process();
+      revamping();
+      script();
+    }, [])
     return (
       <div>
         {/*================Home Banner Area =================*/}
@@ -428,14 +446,15 @@ function HomePage() {
             <div className="main-container"> {/*main container div*/}
               <div className="row">
                 <div className="col-6 marketing-col1">
-                  {/* <img src="./img/marketing audit/marketing audit.png" class="marketing-img"> */}
-                  {/* <img src="./img/marketing audit/Scope.png" class="scope-ma"> */}
+                  {/* <img src="./img/marketing audit/marketing audit.png" class="marketing-img"/> */}
+                  {/* <img src="./img/marketing audit/Scope.png" class="scope-ma"/> */}
                   <header className="header show-on-scroll">
-                    <div className="main-photo" />
+                    <div className="main-photo">
                     {/* <h1 class="heading">When the moon hits your eye</h1> */}
                     <img src="./img/marketing audit/Scope.png" className="scope-ma" /> 
                     <img src="./img/marketing audit/Circle_ma.jpg" className="circle-ma" />
                     <img src="./img/marketing audit/curve_ma.png" className="curve-ma" />
+                    </div>
                   </header>
                   <div className="fade fade1"><img src="./img/marketing audit/card1_ma.png" className="card1-ma" /></div>
                   <div className="fade fade2"><img src="./img/marketing audit/card2_ma.png" className="card2-ma" /></div>

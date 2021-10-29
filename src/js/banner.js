@@ -34,23 +34,49 @@
 //     easing: "easeOutExpo",
 //     delay: 1000
 //   });
-var textWrapper = document.querySelector('.ml13-banner');
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter-banner'>$&</span>");
+// var textWrapper = document.querySelector('.ml13-banner');
+// textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter-banner'>$&</span>");
 
-anime.timeline({loop: true})
-  .add({
-    targets: '.ml13-banner .letter-banner',
-    translateY: [100,0],
-    translateZ: 0,
-    opacity: [0,1],
-    easing: "easeOutExpo",
-    duration: 1400,
-    delay: (el, i) => 300 + 30 * i
-  }).add({
-    targets: '.ml13-banner .letter-banner',
-    translateY: [0,-100],
-    opacity: [1,0],
-    easing: "easeInExpo",
-    duration: 1200,
-    delay: (el, i) => 100 + 30 * i
-  });
+// anime.timeline({loop: true})
+//   .add({
+//     targets: '.ml13-banner .letter-banner',
+//     translateY: [100,0],
+//     translateZ: 0,
+//     opacity: [0,1],
+//     easing: "easeOutExpo",
+//     duration: 1400,
+//     delay: (el, i) => 300 + 30 * i
+//   }).add({
+//     targets: '.ml13-banner .letter-banner',
+//     translateY: [0,-100],
+//     opacity: [1,0],
+//     easing: "easeInExpo",
+//     duration: 1200,
+//     delay: (el, i) => 100 + 30 * i
+//   });
+import anime from 'animejs';
+
+export function banner() {
+  var textWrapper = document.querySelector('.ml13-banner');
+  textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter-banner'>$&</span>");
+
+  anime.timeline({
+      loop: true
+    })
+    .add({
+      targets: '.ml13-banner .letter-banner',
+      translateY: [100, 0],
+      translateZ: 0,
+      opacity: [0, 1],
+      easing: "easeOutExpo",
+      duration: 1400,
+      delay: (el, i) => 300 + 30 * i
+    }).add({
+      targets: '.ml13-banner .letter-banner',
+      translateY: [0, -100],
+      opacity: [1, 0],
+      easing: "easeInExpo",
+      duration: 1200,
+      delay: (el, i) => 100 + 30 * i
+    });
+}

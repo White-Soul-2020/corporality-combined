@@ -1,3 +1,8 @@
+import jQuery from "jquery";
+import * as $ from 'jquery';
+
+export function marketing() {
+
 // Detect request animation frame
 var scroll = window.requestAnimationFrame ||
              // IE Fallback
@@ -54,3 +59,4 @@ $(window).on("load",function() {
     });
   }).scroll(); //invoke scroll-handler on page-load
 });
+}

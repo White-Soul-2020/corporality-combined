@@ -1,3 +1,7 @@
+import anime from 'animejs';
+
+export function blueprint() {
+
 var textWrapper = document.querySelector('.ml10-blueprint .letters-blueprint');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter-blueprint'>$&</span>");
 
@@ -14,3 +18,4 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+}

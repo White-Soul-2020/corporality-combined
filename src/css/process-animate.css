@@ -52,13 +52,13 @@
   text-align: center;
   /* img size is 50x50 */
   background: url("../img/process/card-animate.jpeg") repeat 0 0;
-  -webkit-animation: bg-scrolling-reverse 2s infinite;
+  -webkit-animation: bg-scrolling-reverse 1s infinite;
   /* Safari 4+ */
-  -moz-animation: bg-scrolling-reverse 2s infinite;
+  -moz-animation: bg-scrolling-reverse 1s infinite;
   /* Fx 5+ */
-  -o-animation: bg-scrolling-reverse 2s infinite;
+  -o-animation: bg-scrolling-reverse 1s infinite;
   /* Opera 12+ */
-  animation: bg-scrolling-reverse 2s infinite;
+  animation: bg-scrolling-reverse 1s infinite;
   /* IE 10+ */
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
