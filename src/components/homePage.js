@@ -15,6 +15,7 @@ import { banner } from '../js/banner';
 import { blueprint } from '../js/blueprint';
 import { marketing } from '../js/marketing';
 import { nav_res } from '../js/nav_res';
+import { nav } from '../js/nav';
 import { pitch } from '../js/pitch';
 import { process } from '../js/process';
 import { revamping } from '../js/revamping';

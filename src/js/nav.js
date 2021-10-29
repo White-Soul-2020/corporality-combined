@@ -2,7 +2,6 @@ import jQuery from "jquery";
 import * as $ from 'jquery';
 
 export function nav() {
-    // window.onload = function () {
 
     // sidebar open close js code
     let navLinks = document.querySelector(".nav-links");
@@ -15,13 +14,14 @@ export function nav() {
         navLinks.style.left = "-100%";
     }
 
-
     // sidebar submenu open close js code
     let htmlcssArrow = document.querySelector(".nav-li");
+    // window.onload = function () {
 
     htmlcssArrow.onclick = function () {
         navLinks.classList.toggle("show1");
     }
+    // }
 
 
     $(window).scroll(function () {

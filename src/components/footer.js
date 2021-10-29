@@ -125,7 +125,7 @@ function Footer() {
                 <h className="heading-foot foot-3"><b style={{color: '#31647c'}}>About Us
                     <hr style={{borderTop: 'solid 3px', width: '60px', height: '0px', textAlign: 'left', marginLeft: 0, marginTop: '5px', marginBottom: '10px', color: '#a06cae'}} />
                   </b></h>
-                <a className="footer-top-arrow" onclick="window.scrollTo(0, 0)" style={{scrollBehavior: 'smooth'}}><button className="footer-topup"><i className="fas fa-arrow-up fa-1x" /></button></a>
+                <a className="footer-top-arrow" href="#" style={{scrollBehavior: 'smooth'}}><button className="footer-topup"><i className="fas fa-arrow-up fa-1x" /></button></a>
                 <ul className="uls3" style={{listStyleType: 'none'}}>
                   <li className="footer_aboutus">
                     <a className="footer-a" href="./allpages/ABOUTCORPORALITY/corporalitycitizenship.html"><img src="./img/logo/Polygon 12.png" style={{marginLeft: '-4px', paddingRight: '5px'}} />
