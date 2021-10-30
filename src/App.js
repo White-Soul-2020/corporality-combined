@@ -1,15 +1,17 @@
 import './App.css';
-import Navbar from './components/navbar';
-import Footer from './components/footer';
-import HomePage from './components/homePage';
-
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import HomePage from './components/homePage/homePage';
+import CxoStrategy from './components/cxoStrategy/cxoStrategy';
+import PagesRouter from './components/pageRouter';
 
 function App() {
   return (
     <div className="App">
-<Navbar/>
-<HomePage/>
-<Footer/>
+      <Router>
+        <Route component={PagesRouter} exact path="/" />
+        <Route component={HomePage} exact path="/HomePage" />
+        <Route component={CxoStrategy} exact path="/CxoStrategy" />
+      </Router>
     </div>
   );
 }

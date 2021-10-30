@@ -1,25 +1,25 @@
 import React from 'react'
 import { useEffect} from 'react';
-import '../css/style.css';
-import '../css/blueprint.css';
-import '../css/key.css';
-import '../css/marketing.css';
-import '../css/marketing_scroll.css';
-import '../css/marketing_simple.css';
-import '../css/pitch.css';
-import '../css/process-animate.css';
-import '../css/process.css';
-import '../css/revamping.css';
+import './css/style.css';
+import './css/blueprint.css';
+import './css/key.css';
+import './css/marketing.css';
+import './css/marketing_scroll.css';
+import './css/pitch.css';
+import './css/process-animate.css';
+import './css/process.css';
+import './css/revamping.css';
 
-import { banner } from '../js/banner';
-import { blueprint } from '../js/blueprint';
-import { marketing } from '../js/marketing';
-import { nav_res } from '../js/nav_res';
-import { nav } from '../js/nav';
-import { pitch } from '../js/pitch';
-import { process } from '../js/process';
-import { revamping } from '../js/revamping';
-import { script } from '../js/script';
+import Navbar from '../navigation/navbar';
+import Footer from '../footer/footer';
+
+import { banner } from './js/banner';
+import { blueprint } from './js/blueprint';
+import { marketing } from './js/marketing';
+import { pitch } from './js/pitch';
+import { process } from './js/process';
+import { revamping } from './js/revamping';
+import { script } from './js/script';
 
 import AOS from 'aos'; 
 import anime from 'animejs';
@@ -32,7 +32,7 @@ function HomePage() {
       blueprint();
       marketing();
       // nav();
-      nav_res();
+      // nav_res();
       pitch();
       process();
       revamping();
@@ -40,6 +40,7 @@ function HomePage() {
     }, [])
     return (
       <div>
+        <Navbar/> 
         {/*================Home Banner Area =================*/}
         <section className="home_banner_area">
           <div className="main-banner">
@@ -539,6 +540,8 @@ function HomePage() {
           </div>
         </section>
         {/* ================ Key Objectives section end ================   */}
+        <Footer/>
+
       </div>
     );
 }

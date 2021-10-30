@@ -1,7 +1,16 @@
 import React from 'react'
-import '../css/nav.css';
+import './nav.css';
+
+import { useEffect} from 'react';
+import { nav_res } from './nav_res';
+import { nav } from './nav';
 
 function Navbar() {
+
+  useEffect(() =>{
+    // nav();
+    nav_res();
+  }, [])
     return (
         <div>
             {/* Nav Bar Start */}
