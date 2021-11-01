@@ -10,12 +10,17 @@ export default function PagesRouter(props) {
                 <div className="app_link">
                     <h4>Click
                     <a className="link" href="/homePage">Here</a>
-                    Corporality HomePage</h4>
+                    Digital Media Marketing</h4>
                 </div>
                 <div className="app_link">
                     <h4>Click
                     <a className="link" href="/cxoStrategy">Here</a>
                     CXO Strategy</h4>
+                </div>
+                <div className="app_link">
+                    <h4>Click
+                    <a className="link" href="/strategyConsultancy">Here</a>
+                    strategyConsultancy</h4>
                 </div>
             </div>
            

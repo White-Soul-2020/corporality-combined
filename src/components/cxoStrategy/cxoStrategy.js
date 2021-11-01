@@ -1,6 +1,8 @@
 import React from 'react'
 import { useEffect} from 'react';
-import './cxoStrategy.css';
+import './index.css';
+import '../../App.css';
+// import './cxoStrategy.css';
 
 import Navbar from '../navigation/navbar';
 import Footer from '../footer/footer';

@@ -3,7 +3,7 @@ import React from 'react'
 export default function Differentiate() {
     return (
         <>
-        <div class="container">
+        <div class="">
   <div class="row">
 
     <div class="col cxo-landing-page ">
@@ -17,8 +17,14 @@ export default function Differentiate() {
        important.</p>
     </div>
 
-    <div class="col cxo-landing-image-1">
-      <div class="cxo-landing-image-2"></div>
+    <div class="col  cxo-landing-image-1">
+      <div class="cxo-landing-image-2">
+        <div class="cxo-landing-image-3">
+          <div class="cxo-landing-image-4">
+
+          </div>
+        </div>
+      </div>
     </div>
 
   </div>

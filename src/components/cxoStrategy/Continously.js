@@ -5,7 +5,7 @@ export default function Continously() {
         <>
      
  
-     <div class="container video-box-container">
+     <div class="video-box-container">
 
 {/*      
      <img src="./img/continously/Rectangle 214.png"/> */}

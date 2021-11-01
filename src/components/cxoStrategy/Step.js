@@ -1,25 +1,15 @@
 import React from 'react'
 
-export default function Charge() {
+export default function Step() {
     return (
-        <div className="text-center">
-        <div className="container  charge-vertical-strip">
-        <div className="container charge-horizontal-strip">
-        <p>Bring a CXO who can lead the charge </p>
-          <div className="charge-img-1"> 
-            <div className="container charge-img-2">
-            </div>
-          </div>
-        </div>
-        </div>
-
-<br/><br/><br/>
-        <div class="container">
+        <>
+                <div class="container">
   <div class="row">
-    <div class="col">
-      
+    <div class="col-lg-6 ">
+    <div class="container charge-pic"></div>
+     
     </div>
-    {/* <div class="col charge-paragraph">
+    <div class="col-lg-6 charge-paragraph">
       <p>Corporality takes a genuine step towards the customer.
       While identifying significant financial, operational
       and direct experience loopholes, our digital marketing
@@ -30,13 +20,9 @@ export default function Charge() {
       measurable in terms of performance improvement.
       </p>
     </div>
-   */}
+  
   </div>
 </div>
-
-
-
-            
-        </div>
-    );
+        </>
+    )
 }

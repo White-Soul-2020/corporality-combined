@@ -45,35 +45,35 @@ Top Executive Talent that delivers
 <div class="container Talent-box-container">
   <div class="row">
     <div class="col text-center  ">
-      <div class=" Talent-box-outer-1 Talent-box-upper-bound">
+      <div class=" Talent-box-outer-1">
         <div class="  text-center Talent-box-inner-1">
          <p class="Talent-box-inner-text-1"> Defining the strategy </p>
         </div>
       </div>  
     </div>
     <div class="col text-center">
-      <div class=" Talent-box-outer-1 Talent-box-lower-bound">
+      <div class=" Talent-box-outer-1">
         <div class=" text-center Talent-box-inner-1">
           <p class="Talent-box-inner-text-1"> Resource Allocation </p>
         </div>
       </div>  
     </div>
     <div class="col text-center ">
-      <div class="Talent-box-outer-1 Talent-box-upper-bound">
+      <div class="Talent-box-outer-1">
         <div class=" text-center Talent-box-inner-1">
           <p class="Talent-box-inner-text-1"> Extending Control Mechanisms </p>
         </div>
       </div>
     </div>
     <div class="col text-center ">
-     <div class="Talent-box-outer-1 Talent-box-lower-bound">
+     <div class="Talent-box-outer-1">
         <div class=" text-center Talent-box-inner-1">
           <p class="Talent-box-inner-text-1"> Identify Objectives and challenges </p>
         </div>
      </div>
     </div>
     <div class="col text-center">
-    <div class=" Talent-box-outer-1 Talent-box-upper-bound">
+    <div class=" Talent-box-outer-1">
         <div class="text-center Talent-box-inner-1">
            <p class="Talent-box-inner-text-1"> Setting Final Goals </p>
         </div>
