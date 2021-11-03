@@ -9,7 +9,7 @@ export default function PagesRouter(props) {
                <h1> Nishant and Ankit's Work</h1>
                 <div className="app_link">
                     <h4>Click
-                    <a className="link" href="/homePage">Here</a>
+                    <a className="link" href="/digitalMarketing">Here</a>
                     Digital Media Marketing</h4>
                 </div>
                 <div className="app_link">

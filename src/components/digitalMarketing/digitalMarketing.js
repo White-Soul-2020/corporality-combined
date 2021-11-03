@@ -300,7 +300,17 @@ function HomePage() {
               <p className="blueprint-p" data-aos="fade-down" data-aos-easing="ease" data-aos-duration={2500}><span style={{color: '#757575'}}>The Corporality Website blueprint Masterplan is a strategic process to construct your virtual office. Our website design, development experts and dedicated team will work closely with you and start with</span>
                 <span style={{color: '#a06db0'}}>hands-on brainstorming sessions to achieve your marketing objective through this website blueprint. It’s an intense, multi-layer process, but the final outcome is priceless.</span>
                 <span style={{color: '#757575'}}>Initiate your best customer experience with the Corporality Website MasterPlan, and you will have a customer-centric conversion-based website that will sell for you.</span></p>
-              <img src="./img/blueprint/website blueprint.jpg" className="blueprint-img" />
+                <img src="./img/blueprint/website blueprint.jpg" className=" blueprint-img" />
+              
+              {/* <div className="blueprint-group-img text-center">
+                <div>
+                  <img src="./img/blueprint/Steps for brand positioning.png" className=" blueprint-heading" />
+                </div>
+                <img src="./img/blueprint/blueprint-img.png" className="blueprint-img  border border-dark" />
+                <div className="blueprint-center ">
+                  <img src="./img/blueprint/blueprint-center.png" className="" data-aos="zoom-in" data-aos-duration="500"/>
+                </div>
+              </div> */}
             </div>{/*container div*/}
           </div>
         </section>
