@@ -51,16 +51,16 @@ function Navbar() {
                           <div className="link">SERVICES<i className="fa fa-chevron-down" id="arrow_m" />
                           </div>
                           <ul className="submenu">
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/gotomarketing.html" style={{color: 'black'}}>Go-to-Marketing</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/gotomarketing.html" style={{color: 'black'}}>Brand Positioning</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
                             <li id="about-point1"><a href="./allpages/OURSERVICES/digitalmediamarketing.html" style={{color: 'black'}}>Digital Media Marketing</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/marketingstrategyfor2021.html" style={{color: 'black'}}>Marketing Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/professionalpracticesstrategy.html" style={{color: 'black'}}> Professional Practice Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/marketingstrategyfor2021.html" style={{color: 'black'}}>Interactivity Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/professionalpracticesstrategy.html" style={{color: 'black'}}> Strategic Consultancy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
                             <li id="about-point1"><a href="./allpages/OURSERVICES/corporatestrategy.html" style={{color: 'black'}}>Corporate Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/productstrategy.html" style={{color: 'black'}}>Product Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/websiteblueprint.html" style={{color: 'black'}}>Website Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/ledgenandsalesstrategy.html" style={{color: 'black'}}>Lead Gen and Sales Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Brand
-                                Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/productstrategy.html" style={{color: 'black'}}>Go to Marketing Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/websiteblueprint.html" style={{color: 'black'}}>Outsourced Cxo</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            {/* <li id="about-point1"><a href="./allpages/OURSERVICES/ledgenandsalesstrategy.html" style={{color: 'black'}}>Lead Gen and Sales Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li> */}
+                            {/* <li id="about-point1"><a href="#" style={{color: 'black'}}>Brand
+                                Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li> */}
                           </ul>
                         </li>
                         <li className="accordion-li">

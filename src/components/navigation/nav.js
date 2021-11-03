@@ -15,12 +15,12 @@ export function nav() {
     }
 
     // sidebar submenu open close js code
-    let htmlcssArrow = document.querySelector(".nav-li");
+    // let htmlcssArrow = document.querySelector(".nav-li");
     // window.onload = function () {
 
-    htmlcssArrow.onclick = function () {
-        navLinks.classList.toggle("show1");
-    }
+    // htmlcssArrow.onclick = function () {
+    //     navLinks.classList.toggle("show1");
+    // }
     // }
 
 

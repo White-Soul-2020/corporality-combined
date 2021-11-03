@@ -14,7 +14,7 @@ function HomePage() {
   
     return (
       <div>
-        {/* <Navbar/> */}
+        <Navbar/>
         {/* <Footer/> */}
         <Banner/>
       </div>
