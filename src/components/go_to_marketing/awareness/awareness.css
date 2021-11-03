@@ -1,0 +1,514 @@
+.main_container{
+    width: 1200px;
+    margin: auto;
+}
+.awareness_image{
+    position: relative;
+    height: 970px;
+    width: 130%;
+    margin-top: -40px;
+    margin-left: -15%;
+    border: 2px solid transparent;
+    background-image: url('./img/Group\ 974.png');
+    background-position: center;
+    background-size: 72.2% 100%;
+
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    display: flex;
+}
+.awareness_text_upper{
+    width: 95%;
+    margin-top: 60px;
+    margin-left: 1.5%;
+    display: flex;
+    list-style: none;
+    
+}
+.awareness_text_upper li{
+width: 130px;
+height: 26px;
+left: 175px;
+top: 7387px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+
+color: #A06DAF;
+}
+.awareness_text_upper li:nth-child(1)
+{
+    margin-left: 48px;
+}
+.awareness_text_upper li:nth-child(2)
+{
+    margin-left: 52px;
+}
+.awareness_text_upper li:nth-child(3)
+{
+    margin-left: 60px;
+}
+.awareness_text_upper li:nth-child(4)
+{
+    margin-left: 50px;
+}
+.awareness_text_upper li:nth-child(5)
+{
+    margin-left: 63px;
+}
+.awareness_text_upper li:nth-child(6)
+{
+    margin-left: 53px;
+}
+.awareness_text_bottom{
+    height: 60px;
+    display: flex;
+    width: 100%;
+    list-style: none;
+}
+.awareness_text_bottom li{
+    width: 102px;
+height: 21px;
+left: 96px;
+top: 8206px;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #A06DAF;
+}
+.awareness_text_bottom .li1{
+    margin-left: -15px;
+}
+.awareness_text_bottom .li2{
+    margin-left: 90px;
+}
+.awareness_text_bottom .li3{
+    margin-left: 80px;
+}
+.awareness_text_bottom .li4{
+    margin-left: 85px;
+}
+
+.awareness_text_bottom .li5{
+    margin-left: 88px;
+}
+.awareness_text_bottom .li6{
+    margin-left: 82px;
+}
+.awareness_text_bottom .li7{
+    width: 30px;
+    margin-left: 114px;
+}
+.awareness_image1{
+    position: relative;
+    width: fit-content;
+    margin-left: 248px;
+}
+.awareness_image1 .awareness_img1{
+    display: block;
+}
+.awareness_image1 .awareness_img2{
+    display: block;
+    margin-top: 8px;
+}
+.awareness_image1 .awareness_img3{
+    position: absolute;
+    top: 31px;
+    margin-left: 156px;
+}
+.awareness_image1 .awareness_img4{
+    position: absolute;
+    top: 99px;
+    margin-left: 129px;
+}
+.awareness_image1 .awareness_img5{
+    position: absolute;
+    top: 31px;
+    margin-left: 128px;
+}
+.awareness_image1 .awareness_img6{
+    position: absolute;
+    top: 60px;
+    margin-left: 156px;
+    width: 30px;
+}
+.awareness_image2{
+    /* border: 2px solid red; */
+    width: fit-content;
+    margin-top: -10.5px;
+    margin-left: 53px;
+    
+}
+.awareness_image2 .awareness_img1{
+    display: block;
+    margin-top: -20px;
+}
+.awareness_image2 .awareness_img2{
+    display: block;
+    margin-top: 22px;
+}
+.awareness_image2 .awareness_img3{
+    display: block;
+    margin-top: 74px;
+    margin-left: -100px;
+}
+.awareness_image2 .awareness_img4{
+    display: block;
+    
+}
+.awareness_image2 .awareness_img5{
+    display: block;
+    margin-top: 71px;
+    margin-left: 10px;
+}
+.awareness_image2 .awareness_img6{
+    display: block;
+    margin-top: 123px;
+    margin-left: 10px;
+}
+.awareness_image2 .awareness_img7{
+    display: block;
+    margin-top: 33px;
+    margin-left: -20px;
+}
+.awareness_image2 .awareness_img8{
+    position: absolute;
+    top: 110px;
+    margin-left: 56px;
+    
+}
+.awareness_image2 .awareness_img9{
+    position: absolute;
+    top: 196px;
+    transform: scale(1.4);
+    margin-left: 56px;
+    
+}
+.awareness_image2 .awareness_img10{
+    position: absolute;
+    top: 283px;
+    margin-left: 32px;
+    
+}
+.awareness_image2 .awareness_img11{
+    position: absolute;
+    top: 158px;
+    margin-left: 135px;
+    width: 70px;
+}
+.awareness_image2 .awareness_img12{
+    position: absolute;
+    top: 333px;
+    margin-left: 133px;
+    transform: scale(1.1);
+    
+}
+.awareness_image2 .awareness_img13{
+    position: absolute;
+    top: 240px;
+    margin-left: 59px;
+    transform: scale(1.06);
+}
+.awareness_image2 .awareness_img14{
+    position: absolute;
+    top: 249px;
+    margin-left: 160px;
+    transform: scale(1.2);
+}
+.awareness_image2 .awareness_img15{
+    position: absolute;
+    top: 387px;
+    margin-left: 159px;
+    
+}
+.awareness_image2 .awareness_img16{
+    position: absolute;
+    top: 466px;
+    margin-left: 143px;
+    width: 50px;
+    
+}
+.awareness_image2 .awareness_img17{
+    position: absolute;
+    top: 387px;
+    margin-left: 159px;
+    
+}
+.awareness_image2 .awareness_img18{
+    position: absolute;
+    top: 532px;
+    margin-left: 159px;
+    
+}
+.awareness_image2 .awareness_img19{
+    position: absolute;
+    top: 648px;
+    margin-left: 142px;
+    width: 55px;
+}
+.awareness_image2 .awareness_img20{
+    position: absolute;
+    top: 742px;
+    margin-left: 142px;
+    width: 55px;
+}
+.awareness_image3{
+    position: relative;
+    border: 2px solid transparent;
+    width: fit-content;
+    margin-left: 60px;
+}
+.awareness_image3 .awareness_img1{
+    display: block;
+    margin-top: 40px;
+}
+.awareness_image3 .awareness_img2{
+    display: block;
+    margin-top: 55px;
+    margin-left: -20px;
+}
+.awareness_image3 .awareness_img3{
+    display: block;
+    margin-left: -28px;
+    margin-top: 51px;
+}
+.awareness_image3 .awareness_img4{
+    display: block;
+    margin-left: -20px;
+    margin-top: 21px;
+}
+.awareness_image3 .awareness_img5{
+    display: block;
+    margin-left: -40px;
+    margin-top: 3px;
+}
+.awareness_image3 .awareness_img6{
+    display: block;
+    margin-top: 60px;
+    margin-left: -20px;
+}
+.awareness_image3 .awareness_img7{
+    display: block;
+    margin-top: 31px;
+    margin-left: -10px;
+}
+.awareness_image3 .awareness_img8{
+    position: absolute;
+    margin-left: 60px;
+    top: 85px;
+}
+.awareness_image3 .awareness_img9{
+    position: absolute;
+    margin-left: 60px;
+    top: 245px;
+    transform: scale(1.3);
+    z-index: -1;
+}
+.awareness_image3 .awareness_img10{
+    position: absolute;
+    margin-left: 120px;
+    top: 365px;
+    z-index: -1;
+}
+.awareness_image3 .awareness_img11{
+    position: absolute;
+    margin-left: 125px;
+    top: 639px;
+    width: 63px;
+}
+
+.awareness_image4 .awareness_img1{
+    display: block;
+    margin-top: 348px;
+    margin-left: 50px;
+}
+.awareness_image4 .awareness_img2{
+    display: block;
+    margin-top: 216px;
+    margin-left: 49px;
+}
+.awareness_image4 .awareness_img3{
+    position: absolute;
+    margin-left: 113px;
+    top: 502px;
+    transform: scale(1.2);
+    z-index: -1;
+}
+.awareness_image4 .awareness_img4{
+    margin-top: -93px;
+    margin-left: 190px;
+    z-index: -1;
+    transform: scale(0.7);
+}
+.awareness_image5{
+    margin-left: -2px;
+}
+.awareness_image5 .awareness_img1{
+    display: block;
+    margin-top: 612px;
+}
+.awareness_image5 .awareness_img2{
+    display: block;
+    margin-top: 15px;
+}
+.awareness_image5 .awareness_img3{
+    display: block;
+    margin-top: 15px;
+}
+.awareness_image5 .awareness_img4{
+    position: absolute;
+    top: 760px;
+    margin-left: 60px;
+}
+.awareness_image5 .awareness_img5{
+    position: absolute;
+    top: 825px;
+    margin-left: 60px; 
+}
+.awareness_image5 .awareness_img6{
+    position: absolute;
+    top: 739px;
+    margin-left: 136px; 
+    z-index: -1;
+    width: 56px;
+}
+.awareness_image5 .awareness_img7{
+    position: absolute;
+    top: 550px;
+    margin-left: 166px; 
+    z-index: -1;
+}
+.awareness_image6{
+    
+    width: fit-content;
+    margin-left: 30px;
+    position: relative;
+}
+.awareness_image6 .awareness_img1{
+    margin-top: 400px;
+    margin-left: 25px;
+}
+.awareness_image6 .awareness_img2{
+    position: absolute;
+    top: 448px;
+    left: 7px;
+    z-index: -1;
+    width: 25px;
+}
+.awareness_image6 .awareness_img3{
+    position: absolute;
+    top: 518px;
+    left: 7px;
+    z-index: -1;
+    width: 25px;
+}
+.awareness_image6 .awareness_img4{
+    position: absolute;
+    top: 578px;
+    left: 7px;
+    z-index: -1;
+    width: 25px;
+}
+.awareness_image6 .awareness_img5{
+    position: absolute;
+    top: 449px;
+    transform: scale(1.2);
+    left: 158px;
+    z-index: -1;
+}
+.awareness_image6 .awareness_img6{
+    position: absolute;
+    top: 520px;
+    left: 158px;
+    z-index: -1;
+    transform: scale(1.2);
+}
+.awareness_image6 .awareness_img7{
+    position: absolute;
+    top: 578px;
+    left: 158px;
+    transform: scale(1.2);
+    z-index: -1;
+}
+.awareness_image6 .awareness_img8{
+    position: absolute;
+    top: 638px;
+    left: 158px;
+    z-index: -1;
+    transform: scale(1.2);
+   
+}
+.awareness_image6 .awareness_img9{
+    position: absolute;
+    top: 448px;
+    left: 188.5px;
+    z-index: -1;
+}
+.awareness_image6 .awareness_img10{
+    position: absolute;
+    top: 420px;
+    left: 15px;
+    z-index: -1;
+}
+.awareness_image6 .awareness_img11{
+    display: block;
+    margin-top: 22px;
+    margin-left: 27px;
+}
+.awareness_image6 .awareness_img12{
+    display: block;
+    margin-top: 20px;
+    margin-left: 27px;
+}
+.awareness_image6 .awareness_img13{
+    display: block;
+    margin-top: 8px;
+    margin-left: 27px;
+}
+.awareness_image6 .awareness_img14{
+    display: block;
+    margin-top: 8px;
+    margin-left: 27px;
+}
+
+.anm{
+    animation: movin 2s ease-in-out infinite;
+    
+}
+@keyframes movin{
+    0%,100% {
+      transform: translate(-3px, 0);
+    }
+     50%{
+        transform: translate(3px, 0);
+     }
+     
+    
+}
+.anm2{
+    animation: moving 2s ease-in-out infinite;
+}
+@keyframes moving{
+    0%,100% {
+      transform: translate(0,-3px);
+    }
+     50%{
+        transform: translate(0, 3px);
+     }
+     
+    
+}
+.hvr{
+    transition: all 0.6s ease;
+}
+.hvr:hover{
+    transform: translate(5px,0);
+}

@@ -1,0 +1,1326 @@
+.main-container{
+    width: 1200px;
+    margin: auto;
+}
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*    Banner */
+.Inc_Div_banner1{
+    height: 580px;
+    width: 100%;
+    display: flex;
+    margin-top: 130px;
+    overflow: hidden;
+  }
+.Inc_Div_banner{
+     height: 580px;
+     display: flex;
+     width: 99.9%;
+}
+.Inc_Div_banner_left{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+   z-index: -1;
+  }
+.Inc_Div_banner_left h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    margin-top: -200px;
+    
+    text-transform: uppercase !important;
+    
+    margin-left: -250px;
+    color: #3C708E;
+}
+.Inc_Div_banner_left h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 40px;
+margin-top: -160px;
+text-transform: uppercase !important;
+color: #232323;
+text-align: left;
+margin-left: 0px;
+}
+  .Inc_Div_banner_left p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #232323;
+    margin-top: -100px;
+    margin-left: 5px;
+  }
+  .Inc_Div_banner_left img{
+   
+   margin-left: 260px;
+   margin-top: -110px;
+  }
+  .Inc_Div_banner_right{
+   position: relative;
+    margin-left: 100px; 
+   width: 50%;
+   height: 100%;
+  }
+  .Inc_Div_banner_image{
+   position: relative;
+   
+   width: fit-content;
+   margin:auto;
+   margin-left: 150px;
+   margin-top: 100px;
+  }
+  .Inc_Div_banner_image_bkg{
+   position: absolute;
+   top: -80px;
+   left: -40px;
+   z-index: -1;
+  
+  }
+  .Inc_Div_banner_right_inner{
+   
+   width: 350px;
+   height: 352.19px;
+   
+   transform: rotate(45deg);
+   overflow: hidden;
+   z-index: 10;
+  }
+  .Inc_Div_banner_right_inner img{
+   width: 510px;
+   height: 512.19px;
+   margin-top: -80px;
+   margin-left: -80px;
+   transform: rotate(-45deg);
+  
+   transition: all 0.8s ease;
+   z-index: 100;
+  }
+  .Inc_Div_banner_right_inner:hover img {
+   transform: scale(1.03) rotate(-45deg);
+  }
+  .Inc_Div_banner_right_img5{
+   position: absolute;
+   top: 100px;
+   
+  }
+  .Inc_Div_banner_right_img4{
+   position: absolute;
+   top: 330px;
+   left: 60px;
+   z-index: -1;
+  }
+  .Inc_Div_banner_right_img3{
+   margin-top: 0px;
+   margin-left: 230px;
+  }
+  .Inc_Div_overlay{
+   position: relative;
+   height: 80%;
+   width: 477px;
+   margin-top: 140px;
+   bottom: 0;
+   margin-left: -300px;
+   
+   z-index: -1;
+   background: #fff;
+   
+  
+  }
+  .Inc_Div_ellipse-1 {
+   position: absolute;
+   width: 477px;
+   height: 466px;
+  z-index: -1;
+   background: rgba(255, 239, 165, 0.3);
+   filter: blur(100px);
+  
+  } 
+
+
+
+    /*Our Faith */
+ .Inc_Div_our-faith{
+    position: relative;
+    height: 595px;
+    
+  }
+ 
+   .Inc_Div_our-faith-main{
+     position: relative;
+     z-index: 1;
+     width: 99.9%;
+     width: 80%;
+     margin-left: 10%;
+     background-color: #FEFAFF;
+     
+   }
+   .Inc_Div_our-faith-back{
+    position: relative;
+    display: flex;
+    width: 1320px;
+    height: 504px;
+    
+    margin-left: 90px;
+   
+  }
+  
+   .Inc_Div_our-faith-wrapper{
+     margin-left: -350px;
+     overflow: hidden;
+     
+   }
+   
+   
+   
+    .Inc_Div_our-faith-image{
+      position: relative;
+     margin-left: 150px;
+     
+   } 
+   
+   .Inc_Div_our-faith-rect7{
+   position: absolute;
+   z-index: 10;
+   width: 158.65px;
+   height: 158.65px;
+   top: -143px;
+   left: 10px;
+   }
+   
+   .Inc_Div_our-faith-rect8{
+     position: absolute; 
+   width: 110px;
+   height: 110px;
+   z-index: 100;
+   top: 25px;
+   left: -20px;
+   }
+   
+   .Inc_Div_our-faith-rect9{
+     position: absolute;
+   width: 80.81px;
+   height: 80.12px;
+   z-index: 100;
+   top: 150px;
+   left: -40px;
+   }
+   
+   .Inc_Div_our-faith-main-img{
+     position: relative;
+     z-index: 10;
+   width: 298.04px;
+   height: 300px;
+   left: 0px;
+   top: 125px;
+   overflow: hidden;
+   
+   transform: rotate(45deg);
+   }
+   
+   .Inc_Div_our-faith-main-img img{
+     transform: rotate(-45deg) !important;
+     width: 143%;
+     height: 143%;
+     margin-top: -21.5%;
+     margin-left: -21.5%;
+     transition: all 0.6s linear;
+   }
+   
+   .Inc_Div_our-faith-main-img:hover img{
+     transform: scale(1.03) rotate(-45deg) !important;
+   
+   }
+   
+   
+   
+   .Inc_Div_our-faith-vector{
+     position: relative;
+   width: 94.64px;
+   height: 89.61px;
+   left: 280.85px;
+   top: 20.13px;
+   
+   }
+   
+   .Inc_Div_our-faith-rect8-p{
+     position: relative;
+   width: 40.32px;
+   height: 40.32px;
+   left: 200.75px;
+   
+   top: 30px;
+   } 
+   .Inc_Div_our-faith-text{
+     margin-top: 50px;
+     margin-left: -890px;
+     width: 1100px;
+     
+     
+   }
+   
+.Inc_Div_our-faith-head{
+     position: relative;
+   width: 677px;
+   left: 190px;
+   top: 21px;
+   margin-bottom: 30px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 44px;
+   
+   
+   text-transform: uppercase;
+   
+   color: #3C708E;
+   
+   }
+   
+   .Inc_Div_our-faith-para{
+     position: relative;
+   width: 622px;
+   height: 208px;
+   left: 190px;
+   top: 14px;
+   
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 26px;
+ color: #757575;
+}
+
+
+
+   /* Creativity */
+
+
+   @import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap");
+   .Inc_Div_creativity_innovation{
+       margin-top: 100px;
+   }
+   .Inc_Div_container-creativity {
+     clip: rect(0, auto, auto, 0);
+   
+     height: 50vh;
+     left: 0;
+     width: 100%;
+     margin-top: -5%;
+     -webkit-mask-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+   }
+   
+   .Inc_Div_container_solid {
+     background: white;
+     top: 0;
+   }
+   
+   .Inc_Div_title_wrapper {
+     position: fixed;
+     display: block;
+     margin: auto;
+     width: 100%;
+     top: 50%;
+     
+   }
+   
+   .Inc_Div_title_wrapper h1 {
+     width: 938px;
+     height: 84px;
+     left: 531px;
+     top: 1454px;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 32px;
+     line-height: 42px;
+     text-align: center;
+     margin-left: 9%;
+     text-align: center;
+     text-transform: uppercase;
+   
+   }
+   
+   .Inc_Div_container_solid .Inc_Div_title_wrapper h1 {
+     /* the text background */
+     background-image: url(./img/creativity_bg.jpg);
+     background-size: 100vw auto;
+     background-position: center;
+     text-fill-color: transparent;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+     
+     /* fallback text color */
+     color: black;
+   }
+   .Inc_Div_creativity_name {
+     
+     background-image: url(./img/creativity_bg.jpg);
+     background-size: 100vw auto;
+     background-position: center;
+
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+     text-align: center;
+     color: black;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 22px;
+     line-height: 28px;
+   }
+   .Inc_Div_container_solid .Inc_Div_title_wrapper .Inc_Div_creativity_name1 {
+     background-image: url(./img/creativity_bg.jpg);
+     background-size: 100vw auto;
+     background-position: center;
+   
+     /* clip the text is possible */
+     text-fill-color: transparent;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+   
+     /* fallback text color */
+     color: black;
+   }
+   .Inc_Div_creativity_des {
+     /* the text background */
+     background-image: url(./img/creativity_bg.jpg);
+     background-size: 100vw auto;
+     background-position: center;
+   
+     /* clip the text is possible */
+     /* text-fill-color: transparent; */
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+   
+     /* fallback text color */
+     text-align: center;
+     color: black;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+     font-weight: normal;
+     font-size: 22px;
+     line-height: 28px;
+   }
+   .Inc_Div_container_solid .Inc_Div_title_wrapper .Inc_Div_creativity_des1 {
+     /* the text background */
+     background-image: url(./img/creativity_bg.jpg);
+     background-size: 100vw auto;
+     background-position: center;
+   
+     /* clip the text is possible */
+     text-fill-color: transparent;
+     -webkit-text-fill-color: transparent;
+     background-clip: text;
+     -webkit-background-clip: text;
+   
+     /* fallback text color */
+     color: black;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 14px;
+   }
+   
+   .Inc_Div_container_image {
+     /* Grab a free image from unsplash */
+     background-image: url(./img/creativity_bg.jpg);
+     background-size: 100vw auto;
+     background-position: center;
+     background-attachment: fixed;
+     margin-bottom: 10%;
+   
+     /* position the second container below the first container */
+     top: 40vh;
+   }
+   
+   .Inc_Div_container_image .Inc_Div_title_wrapper h1 {
+     color: white;
+   }
+   .Inc_Div_container_image .Inc_Div_title_wrapper .Inc_Div_creativity_name1 {
+     text-align: center;
+     color: white;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+     font-weight: normal;
+     font-size: 22px;
+     line-height: 28px;
+   }
+   .Inc_Div_container_image .Inc_Div_title_wrapper .Inc_Div_creativity_des1 {
+     text-align: center;
+     color: white;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+     font-weight: normal;
+     font-size: 22px;
+     line-height: 14px;
+   }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*      A DUTY WITHOUT BOUNDARIES*/
+
+.Inc_Div_duty_container{
+    height: 900px;
+    background: #F2F2F2;
+    padding-top: 60px;
+    
+    }
+    
+    .Inc_Div_duty_heading h1{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-weight: 700;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 40px;
+        /* identical to box height, or 125% */
+        
+        text-align: center;
+        text-transform: uppercase;
+        
+        color: #3C708E;
+        
+        margin-bottom: 20px;
+    }
+    .Inc_Div_duty_heading p{
+        
+    width: 800px;
+    height: 44px;
+    /* padding: 0px 10px; */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    /* or 157% */
+    text-align: center;
+    color: #757575;
+    margin: auto;
+    margin-bottom: 110px;
+    }
+    .Inc_Div_duty_card_wrapper{
+        
+      display: grid;
+      margin-left: 60px;
+       width: fit-content;
+       
+      justify-content: center;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 300px;
+      row-gap: 120px;
+    }
+    
+    .Inc_Div_duty_card{
+        width: 458px;
+        height: 215px;
+        border: 1px solid #CCCCCC ;
+        
+        border-radius: 0px 10px 10px 0px;
+        background: #FFFFFF;
+        
+    }
+    .Inc_Div_duty_card_inner{
+        width: 455px;
+        height: 209px;
+        
+        box-sizing: border-box;
+        display: flex;
+        
+    }
+    .Inc_Div_duty_card_img{
+      margin-top: -7px;
+      margin-left: -89px;
+      z-index: 10;
+      
+      
+    }
+    .Inc_Div_duty_card_img_inner{
+        overflow: hidden;
+        
+        width: 180px;
+        height: 180px;
+        transform: rotate(45deg);
+        margin-right: 30px;
+    }
+    .Inc_Div_duty_card_img_inner img{
+        width: 140%;
+        height: 140%;
+        margin-top: -35px;
+        margin-left: -35px;
+        transform: rotate(-45deg);
+        transition: all 0.6s linear;
+    }
+    .Inc_Div_duty_card_img_inner:hover img{
+        transform: scale(1.03) rotate(-45deg);
+    }
+    
+    .Inc_Div_duty_card_text{
+        padding-top: 40px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .Inc_Div_duty_card_heading h1{
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-weight: 700;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+    color: #A06DAF;
+    }
+    .Inc_Div_duty_card_desc p{
+        margin-top: 10px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  font-weight: 700;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    
+    
+    color: #757575;
+    }
+    
+    .Inc_Div_bord_top{
+        width: 452px;
+        height: 5px;
+        background-color:white;
+        border-radius: 0px 100px 0px 0px;
+        z-index: -1;
+        transition: background-color 0.6s ease;
+    }
+    
+    .Inc_Div_duty_card:hover .Inc_Div_bord_top{
+        transform: scaleX(1.02);
+        background-color: #A06DAF;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+     /* VIDEO */
+
+    .Inc_Div_howwework_video {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-top: -18%;
+        padding-bottom: 10%;
+        margin-left: 15%;
+        color: #3C708E;
+        text-transform: uppercase;
+        /* background-image: "../img/video/bg.png"; */
+      }
+      /* corporality video */
+      .Inc_Div_video_imge {
+        
+        margin-left: 20%;
+      }
+
+   
+
+
+  
+
+       .Inc_Div_wemake_ourservics-card1 {
+        background: #f6fcff;
+        transition: 0.3s;
+        width: 816px;
+        height: 225px;
+        margin-left: 11%;
+        margin-top: 25%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        /* or 157% */
+      
+        color: #757575;
+      }
+      .Inc_Div_wemake_ourservics-card1:hover {
+        box-shadow: 0 8px 21px 2px rgba(0, 0, 0, 0.15);
+      }
+      .Inc_Div_wemake_ourservics-card2 {
+        background: #f6fcff;
+        transition: 0.3s;
+        width: 835px;
+        height: 225px;
+        margin-left: 8%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        color: #757575;
+        margin-top: 30%;
+      }
+      .Inc_Div_wemake_ourservics-card2:hover {
+        box-shadow: 0 4px 25px 0 rgb(0 0 0 / 20%);
+      }
+      
+      .Inc_Div_wemake_community {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 32px;
+        padding-right:10%;
+        width: 400px;
+        height: 64px;
+      }
+      .Inc_Div_wemake_ourservics-card2-p1{
+        margin-top: -37%;
+        padding-left: 38%;
+        padding-top: 5%;
+      }
+      .Inc_Div_wemake_ourservics-card2-p2{
+        margin-left: -5%;
+        padding-top:1%;
+        padding-left: 5%;
+        padding-right: 9%;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #757575;
+      }
+     
+      .Inc_Div_cs1_plane {
+        margin-top: -36%;
+        margin-left: 74%;
+      }
+      
+      .Inc_Div_cs1_pic {
+        margin-top: -37%;
+        margin-left: 84%;
+        width: 250px;
+        height: 252px;
+        transform: rotate(45deg);
+        overflow: hidden;
+      }
+      .Inc_Div_cs1_pic img{
+        display: block;
+        transform: rotate(-45deg);
+        transition: all 0.6s ease;
+        margin-top: -51px;
+        margin-left: -51px;
+      }
+      .Inc_Div_cs1_pic:hover img{
+        transform: scale(1.03) rotate(-45deg);
+      }
+      .Inc_Div_cs1_img {
+        margin-left: 60%;
+        margin-top: -4.3%;
+      }
+      .Inc_Div_cs2_plane {
+        margin-top: -30%;
+        margin-left: -43%;
+      }
+      .Inc_Div_cs2_pic {
+        margin-top: -36%;
+        margin-left: -11.5%;
+        width: 250px;
+        height: 252px;
+        transform: rotate(45deg);
+        overflow: hidden;
+      }
+      .Inc_Div_cs2_pic img{
+        transform: rotate(-45deg);
+        transition: all 0.6s ease;
+        margin-top: -51px;
+        margin-left: -51px;
+      }
+      .Inc_Div_cs2_pic:hover img{
+        
+        transform: scale(1.03) rotate(-45deg);
+      
+      }
+      .Inc_Div_cs2_img {
+        margin-top: -2.7%;
+        margin-left: 24%;
+      }
+     
+      
+
+
+      .Inc_Div_innovation
+      {
+          margin-bottom: -150px;
+      }
+      .Inc_Div_innovation-main{
+        
+        margin-top: -50px;
+      }
+      
+      .Inc_Div_innovation-main-back-rect5 img{
+        margin-top: -70px;
+        
+      position: relative;
+      width: 100%;
+      height: 500px;
+      }
+      
+      .Inc_Div_innovation-rect12{
+        /* position: relative; */
+        position: absolute;
+        width: 78.75px;
+        height: 79.34px;
+        left: 115.91px;
+        margin-top: -145px;
+      }
+      
+      .Inc_Div_innovation-rect8{
+        /* position: relative; */
+        position: absolute;
+      width: 65.61px;
+      height: 66.1px;
+      left: 175.91px;
+      margin-top: -90.85px;
+      }
+      
+      .Inc_Div_innovation-rect11{
+        /* position: relative; */
+        position: absolute;
+      width: 50.27px;
+      height: 50.49px;
+      left: 232.89px;
+      margin-top: -28.94px;
+      }
+      
+      .Inc_Div_innovation-rect7{
+        /* position: relative; */
+        position: absolute;
+        z-index: 5;
+      width: 54.3px;
+      height: 54.42px;
+      left: 680px;
+      margin-top: -455px;
+      }
+      
+      .Inc_Div_innovation-rect9{
+        
+        position: absolute;
+      width: 58.15px;
+      height: 60.43px;
+      left: 1142.94px;
+      margin-top: -232.2px;
+      }
+      
+      .Inc_Div_innovation-upper-box{
+        position: relative;
+      width: 543px;
+      height: 196px;
+      z-index: 1;
+      left: 640px;
+      top: 30px;
+      }
+      
+      .Inc_Div_innovation-vector{
+        /* position: relative; */
+        position: absolute;
+      width: 94.64px;
+      height: 89.61px;
+      left: 15.64px;
+      margin-top: -150px;
+      
+      }
+      
+      .Inc_Div_innovation-head{
+        /* position: relative; */
+        position: absolute;
+      width: 96px;
+      height: 40px;
+      left: 140px;
+      margin-top: -158px;
+      
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 40px;
+      /* identical to box height, or 182% */
+      
+      text-align: center;
+      text-transform: uppercase;
+      
+      color: #3C708E;
+      }
+      
+      .Inc_Div_innovation-cont{
+        /* position: relative; */
+        position: absolute;
+      width: 320px;
+      height: 22px;
+      left: 132px;
+      top: 100px;
+      
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 22px;
+      /* identical to box height, or 69% */
+      
+      text-align: center;
+      
+      color: #232323;
+      }
+
+
+
+
+
+
+
+
+
+      .Inc_Div_our-newsletter{
+        margin-top: 150px;
+        width: 100%;
+        margin-bottom: -10px;
+        background-color:  #6CA0BC;
+        overflow: hidden;
+      }
+      .Inc_Div_our-newsletter-main{
+        margin-left: -150px;
+        position: relative;
+      }
+     
+      
+       
+      .Inc_Div_our-newsletter-rect44 {
+        position: relative;
+        width: 100%;
+        height: 408px;
+      left: 0px;
+      top: 0px;
+      
+      
+      }
+      
+      .Inc_Div_our-newsletter-polygon9{
+        /* position: relative; */
+        position: absolute;
+      width: 250px;
+      height: 250px;
+      z-index: 1;
+      left: 1020px;
+      margin-top: -332px;
+     
+      overflow: hidden;
+      transform: rotate(45deg);
+      }
+      
+      .Inc_Div_our-newsletter-polygon9 img{
+        transform: rotate(-45deg) !important;
+        width: 142%;
+        height: 142%;
+        margin-top: -54px;
+        margin-left: -52px;
+        transition: all 0.6s linear;
+      }
+      
+      .Inc_Div_our-newsletter-polygon9:hover img{
+        transform: scale(1.03) rotate(-45deg) !important
+      }
+      
+      .Inc_Div_our-newsletter-vector{
+        /* position: relative; */
+        position: absolute;
+      width: 211.24px;
+      height: 200px;
+      
+      margin-top: 70px;
+      
+      }
+      
+      .Inc_Div_our-newsletter-polygon8{
+        /* position: relative; */
+        position: absolute;
+      width: 351px;
+      height: 352px;
+      left: 1010px;
+      margin-top: -384px;
+      }
+      
+      .Inc_Div_our-newsletter-rect48{
+        /* position: relative; */
+        position: absolute;
+      width: 50px;
+      height: 50px;
+      
+      z-index: 1000;
+      right: 150px;
+      margin-top: 70px;
+      }
+      
+      .Inc_Div_our-newsletter-rect45{
+        /* position: relative; */
+        position: absolute;
+      width: 120px;
+      height: 120px;
+      
+      margin-top: -410px;
+      margin-left: 800px;
+      }
+      
+      .Inc_Div_our-newsletter-rect47{
+        /* position: relative; */
+        position: absolute;
+      width: 95px;
+      height: 95px;
+      margin-top: -180px;
+      margin-left: 620px;
+      
+      }
+      
+      .Inc_Div_our-newsletter-rect45-b{
+        /* position: relative; */
+        position: absolute;
+      width: 116.67px;
+      height: 116.67px;
+      margin-left: 330px;
+      margin-top: 332px;
+      }
+      
+      
+      
+      .Inc_Div_our-newsletter-subscribe button:hover{
+        /* transform: translate3d(0, -8px, -8px); */
+        box-shadow: 0px 12px 20px rgba(10, 17, 21, 0.1);
+        
+      }
+      
+      .Inc_Div_our-newslatter-text-head{
+        position: absolute;
+      width: 600px;
+      height: 80px;
+      z-index: 7;
+      height: 40px;
+      left: 67px;
+      margin-top: -350px;
+      padding-bottom: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 40px;
+      color: #ffffff;
+    
+      }
+      
+      .Inc_Div_our-newslatter-text-para{
+        position: absolute;
+      width: 550px;
+      left: 90px;
+      margin-top: -270px;
+      
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      /* or 157% */
+      
+      
+      color: #FFFFFF;
+      }
+    
+    .Inc_Div_our-newslatter-text-para img{
+      margin-left: -30px;
+      margin-right: 10px;
+    }
+     .Inc_Div_our-newsletter-subscribe {
+       margin-left: -27px;
+     }
+      .Inc_Div_our-newsletter-subscribe .Inc_Div_care_to_join_button-subscribe {
+        position: absolute;
+        background: #4e86a4;
+        margin-left: 350px;
+        color: white;
+        border: none;
+        width: 131px;
+        height: 42px;
+        border: 1px solid #4E86A4;
+        box-sizing: border-box;
+        margin-top: -195px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;    
+      }
+      #Inc_Div_care-email-foot {
+        position: absolute;
+        width: 296px;
+        height: 42px;
+        padding-left: 10px;
+        margin-top: -195px;
+        margin-bottom: 0.8rem;
+        outline: none;
+        border: 1px solid #fff;
+        margin-left: 70px;
+        transition: all 0.6s ease;
+        background: #fbfeff;
+        
+        
+      }
+      /* #Inc_Div_care-email-foot:focus::placeholder{
+        margin-top: -30px;
+      }
+      
+      #Inc_Div_care-email-foot::placeholder {
+        position: absolute;
+        width: 103px;
+        height: 16px;
+        left: 10px;
+        top: 10px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #6ca0bc;
+      } */
+      
+      #Inc_Div_care-email-text {
+        font-size: 0.8rem;
+      }
+      .Inc_Div_our-newsletter-text{
+        position: absolute;
+      width: 674px;
+      height: 84px;
+      left: 40px;
+      margin-top: -350px;
+      
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 42px;
+      
+      color: #FFFFFF;
+      
+      }
+
+
+      .In_Div_anm_container{
+        overflow: hidden;
+        width: 100%;
+        height: 500px;
+        margin-top: -60px;
+    }
+    .In_Div_anm_container_img{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        overflow: hidden;
+     
+    }
+    
+    .In_Div_anm_container_img img{
+        width: 100%;
+       
+    }
+    .In_Div_anm_container_text{
+        position: relative;
+        overflow: hidden;
+        top: 0px;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        color: black;
+       
+    }
+    .In_Div_anm_container_text-h1{
+    text-align: center;
+    width: 940px;
+    margin: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase !important;
+    color: black;
+    transition: all 2s ease;
+    
+    }
+    .In_Div_anm_zoom-in{
+        width: 10px;
+        height: 50px;
+        display: inline-block;
+        transition: all 2.2s ease;
+    }
+    
+    .In_Div_anm_upper_box,
+    .In_Div_anm_lower_box{
+        height: 220px;
+        background-color: white;
+        transition: all 2s ease;
+    }
+    
+    .In_Div_anm_lower_box{
+        margin-top: -10px;
+    }
+    .In_Div_anm_middle_box{
+        height: 100px; 
+        background-color: #FFFF; 
+        mix-blend-mode: color-dodge;
+        transition: height 2s ease;
+    }
+    
+    .In_Div_anm_container_text:hover .In_Div_anm_zoom-in{
+        margin-left: -250px;
+        transform: scale(1100,200); 
+        
+    }
+    .In_Div_anm_container_text:hover .In_Div_anm_upper_box{
+        height: 0px;
+        
+    }
+    .In_Div_anm_container_text:hover .In_Div_anm_lower_box{
+        height: 10px;
+    }
+    .In_Div_anm_container_text:hover .In_Div_anm_middle_box{
+        height: 540px;
+    }
+    .In_Div_anm_container_text:hover .In_Div_anm_container_text-h1{
+        padding-top: 200px;
+        
+    }
+    .In_Div_anm_container_text h3{
+        
+        width: 122px;
+        height: 28px;
+        margin: auto;
+        padding-top: 20px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 28px;
+        color: #232323;
+        transition: all 2s ease;
+        }
+        .In_Div_anm_container_text p{
+            margin: auto;
+            margin-top: 25px;
+            padding-left: 10px;
+        width: 164px;
+        height: 14px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 14px;
+        color: #757575;
+        mix-blend-mode: normal;
+        transition: all 2s ease;
+        }
+    
+    
+    
+
+        .user-input-wrp {
+          position: relative;
+          width: 50%;
+        }
+        .user-input-wrp .inputText{
+          width: 100%;
+          height: 40px;
+          outline: none;
+          border: none;
+           box-shadow: none !important;
+        }
+        .user-input-wrp .inputText:focus{
+           padding-top: 10px;
+        }
+        .user-input-wrp .floating-label {
+          position: absolute;
+          pointer-events: none;
+          top: 10px;
+          left: 10px;
+          color: #6ca0bc;
+          transition: 0.2s ease all;
+        }
+        .user-input-wrp input:focus ~ .floating-label,
+        .user-input-wrp input:not(:focus):valid ~ .floating-label{
+          left: 0px;
+          font-size: 13px;
+          opacity: 0;
+        }

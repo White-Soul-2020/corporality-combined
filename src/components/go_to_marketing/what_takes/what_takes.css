@@ -1,0 +1,397 @@
+.main_container{
+    width: 1200px;
+    margin: 0px auto;
+}
+.corporality{
+    margin-top: 50px;
+    margin-bottom: 300px;
+    width: 130%;
+    margin-left: -15%;
+}
+.corporality_heading h1{
+    width: 583px;
+    height: 44px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3C708E;
+    margin: auto;
+}
+.corporality_heading p{
+    width: 972px;
+height: 78px;
+margin: auto;
+margin-top: 20px;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #757575;
+}
+
+
+.corporality_main_logo{
+    position: relative;
+    width: 474.05px;
+   height: 465px;
+   margin-top: 60px;
+   margin-left: 35%;
+}
+.main_logo{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    background-image: url('./img/Main\ icon.png');
+    background-position: center;
+    border-radius: 50%;
+    margin-top: 55px;
+    margin-left: 60px;
+}
+.corporality_card{
+    animation: expand 2s linear infinite;
+}
+@keyframes expand{
+    0%,100%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.02);
+    }
+}
+.corporality_card h1{
+width: 210px;
+height: 60px;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 30px;
+text-align: center;
+text-transform: uppercase;
+color: #3C708E;
+margin-top: 30px;
+}
+.corporality_logo{
+    position: relative;
+}
+.corporality_logo_img1{
+    position: absolute;
+    top: 37px;
+    left: 37px;
+}
+.corporality_image{
+    position: relative;
+}
+.corporality_card1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 20px;
+    left: 240px;
+}
+.corporality_card2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 200px;
+    left: 200px;
+}
+.corporality_card1 h1{
+    margin-top: 20px;
+}
+.corporality_card2 h1{
+    margin-top: 45px;
+}
+.corporality_card3{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 380px;
+    left: 290px;
+}
+.corporality_card3 h1{
+    margin-top: 50px;
+}
+.corporality_card4{
+    position: absolute;
+    top: 480px;
+    left: 730px;
+}
+.corporality_card4 h1{
+    margin-left: -45px;
+    margin-top: 5px;
+}
+.corporality_card5{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 250px;
+    top: 370px;
+}
+.corporality_card5 h1{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.corporality_card6{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 190px;
+    top: 190px;
+}
+.corporality_card6 h1{
+    margin-top: 43px;
+    margin-left: 10px;
+}
+.corporality_card7{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 240px;
+    top:10px;
+}
+.corporality_card7 h1{
+    margin-top: 45px;
+    margin-left: 0px;
+}
+
+
+.improved{
+    display: flex;
+}
+.improved_left{
+    width: 60%;
+    margin-left: -10%;
+}
+.improved_left h1{
+width: 500px;
+height: 44px;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+text-transform: uppercase;
+color: #3C708E;
+margin-left: 55px;
+margin-top: 150px;
+}
+.improved_left p{
+    width: 557px;
+    height: 78px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #757575;
+    margin-left: 55px;
+}
+.improved_button{
+    width: 167px;
+    height: 42px;
+    margin-top: 30px;
+    margin-left: 55px;
+    transition: all 0.6s ease;
+    background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%);
+    }
+.improved_button button{
+      border: none;
+      background-color: transparent;
+      width: 131px;
+    height: 16px;
+    margin-left: 15px;
+    margin-top: 13px;
+    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    
+    }
+.improved_button:hover{
+       background: linear-gradient(95.12deg, #6CA0BC 0%, #EED979 83.42%); 
+       margin-top: 25px;
+}
+.improved_right{
+    width: 60%;
+    margin-right: 100%;
+}
+.improved_right_img{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+}
+.improved_right_img_inner{
+    width: 355px;
+    height: 355px;
+    overflow: hidden;
+    margin-top: 75px;
+    margin-left: 75px;
+    transform: rotate(45deg);
+}
+.improved_right_img_inner img{
+    transform: rotate(-45deg);
+    margin-top: -75px;
+    margin-left: -75px;
+    transition: all 0.6s ease;
+}
+.improved_right_img_inner img:hover{
+    transform: scale(1.02) rotate(-45deg);
+}
+.rectangle181{
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    transform: rotate(-45deg);
+    left: -10px;
+}
+.rectangle181 img{
+    transform: rotate(45deg);
+    margin-top: 150px;
+    transition: all 0.6s ease;
+}
+
+.rectangle181:hover img{
+    margin-top: 10px;
+}
+.rectangle182{
+    position: absolute;
+    width: 150px;
+    height: 350px;
+    
+    left: 316px;
+    top: -138px;
+    z-index:-1;
+    transform: rotate(-45deg);
+    
+}
+.rectangle182 img{
+    position: absolute;
+    top: 178px;
+    left: 7px;
+    z-index: -1;
+    animation: translate_anm 6s ease-in  infinite;
+}
+@keyframes translate_anm{
+    0%,100%{
+        transform:rotate(45deg) translate(-135px,-135px);
+    }
+    50%{
+        transform:rotate(45deg) translate(60px,60px);
+    }
+}
+.rectangle182:hover img{
+    top: 100px;
+  
+}
+.vector4{
+    position: absolute;
+    margin-top: -350px;
+    width: 100%;
+    z-index: -1;
+}
+.group{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-left: 450px;
+    margin-top: -180px;
+}
+.group img{
+    margin-top: 50px;
+    margin-left: 50px;
+    transition: all 0.3s linear;
+}
+.group:hover img{
+    margin-top: -50px;
+}
+.group1{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-left: 730px;
+    margin-top: 0px;
+}
+.group1 img{
+    margin-top: 50px;
+    margin-left: 30px;
+    transition: all 0.3s linear;
+}
+.group1:hover img{
+    margin-top: -10px;
+}
+@media screen and (min-width:700px) and (max-width:920px){
+    .corporality_heading p{
+         width: 70%;
+    }
+    .improved{
+        flex-direction: column-reverse;
+    }
+    .improved_left h1{
+        margin-top: 100px;
+    }
+    .improved_right img{
+        margin-left: 90px;
+    }
+    .improved_left{
+        margin-left: -5%;
+    }
+    .group1{
+        margin-left: 613px;
+    }
+}
+@media screen and (max-width:570px){
+    .improved{
+        flex-direction: column-reverse;
+    }
+    .corporality_heading p{
+        width: 80%;
+        text-align: center;
+    }
+    .corporality_heading h1{
+        width: 60%;
+        text-align: center;
+        font-size: 24px;
+        line-height: 27px;
+    }
+    .group1{
+        margin-left: 300px;
+    }
+    .group{
+        margin-left: 290px;
+    }
+    .improved_right img{
+        width: 300px;
+        margin-left: 70px;
+    }
+    .improved_left h1{
+        width: 110%;
+        font-size: 20px;
+        line-height: 26px;
+        margin-top: 40px;
+    }
+    .improved_left p{
+        width: 130%;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    
+}

@@ -15,8 +15,8 @@ function HomePage() {
     return (
       <div>
         <Navbar/>
-        {/* <Footer/> */}
         <Banner/>
+        <Footer />
       </div>
     );
 }
