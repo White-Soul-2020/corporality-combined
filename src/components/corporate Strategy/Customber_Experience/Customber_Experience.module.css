@@ -1,0 +1,61 @@
+.main_container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.paralax_rect {
+    background: url(./img/Corporality\ Glob\ 2.png);
+    width: 100%;
+    height: 601px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+ .exp_text_1{
+    width: 60%;
+    margin-left: 55.7%;
+    margin-top: -13%;
+    padding: 21px 51px;
+    background: linear-gradient(102.62deg, #A06DAF 18.52%, #6CA0BC 82.82%);
+ }
+.exp_text_1 h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    text-transform: uppercase;
+    color: #FFFFFF;    
+}
+.exp_text_1 p{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: justify;
+color: #FFFFFF;
+}
+.exp_button{
+    display: flex;
+}
+.exp_button a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: white;
+}
+.exp_button_img2{
+    animation: tran 2s ease  infinite;
+}
+@keyframes tran{
+    0%,100%{
+        transform: translate(-3px ,0px);
+    }
+    50%{
+        transform: translate(3px ,0px); 
+    }
+}

@@ -1,142 +1,142 @@
 import React from 'react'
 import './nav.css';
 
-import { useEffect} from 'react';
+import { useEffect } from 'react';
 import { nav_res } from './nav_res';
-import { nav } from './nav';
+// import { nav } from './nav';
 
 function Navbar() {
 
-  useEffect(() =>{
+  useEffect(() => {
     // nav();
     nav_res();
   }, [])
-    return (
-        <div>
-            {/* Nav Bar Start */}
+  return (
+    <div>
+      {/* Nav Bar Start */}
       <section className="navigation">
         <nav className="navbar navbar-expand-md navbar-dark bg-white fixed-top" id="myHeader">
           <div className="main-container">
             {/*main container div*/}
             <div className="navbar">
               <i className="bx bx-menu" />
-              <div className="nav_logo"><img src="./img/logo/logo-fnal-box-1-e1605580586370.png" style={{width: '250px', marginTop: '-2.5px', marginLeft: '49%'}} className="nav-logo-img" /></div>
+              <div className="nav_logo"><img src="./img/logo/logo-fnal-box-1-e1605580586370.png" style={{ width: '250px', marginTop: '-2.5px', marginLeft: '49%' }} className="nav-logo-img" /></div>
               <div className="nav-links">
                 <div className="sidebar-logo">
                   <span className="logo-name" />
-                  <i className="bx bx-x" style={{color: '#31647c'}} />
+                  <i className="bx bx-x" style={{ color: '#31647c' }} />
                   <div className="nav_cp">
                     <ul id="accordion" className="accordion">
                       <div className="contacts">
                         <li className="accordion-li">
                           <div className="link">ABOUT<i className="fa fa-chevron-down" id="arrow_m" /></div>
                           <ul className="submenu">
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Partnership And
-                                Programs</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>About
-                                Corporality</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>How We Work With
-                                Clients</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Sustainable
-                                Growth</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Strategy And
-                                Consulting</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Interactive
-                                Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Inclusion And
-                                Diversity</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Partnership And
+                              Programs</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>About
+                              Corporality</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>How We Work With
+                              Clients</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Sustainable
+                              Growth</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Strategy And
+                              Consulting</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Interactive
+                              Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Inclusion And
+                              Diversity</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
                           </ul>
                         </li>
                         <li className="accordion-li">
                           <div className="link">SERVICES<i className="fa fa-chevron-down" id="arrow_m" />
                           </div>
                           <ul className="submenu">
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/gotomarketing.html" style={{color: 'black'}}>Go-to-Marketing</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/digitalmediamarketing.html" style={{color: 'black'}}>Digital Media Marketing</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/marketingstrategyfor2021.html" style={{color: 'black'}}>Marketing Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/professionalpracticesstrategy.html" style={{color: 'black'}}> Professional Practice Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/corporatestrategy.html" style={{color: 'black'}}>Corporate Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/productstrategy.html" style={{color: 'black'}}>Product Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/websiteblueprint.html" style={{color: 'black'}}>Website Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="./allpages/OURSERVICES/ledgenandsalesstrategy.html" style={{color: 'black'}}>Lead Gen and Sales Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Brand
-                                Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/gotomarketing.html" style={{ color: 'black' }}>Go-to-Marketing</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/digitalmediamarketing.html" style={{ color: 'black' }}>Digital Media Marketing</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/marketingstrategyfor2021.html" style={{ color: 'black' }}>Marketing Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/professionalpracticesstrategy.html" style={{ color: 'black' }}> Professional Practice Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/corporatestrategy.html" style={{ color: 'black' }}>Corporate Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/productstrategy.html" style={{ color: 'black' }}>Product Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/websiteblueprint.html" style={{ color: 'black' }}>Website Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="./allpages/OURSERVICES/ledgenandsalesstrategy.html" style={{ color: 'black' }}>Lead Gen and Sales Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Brand
+                              Strategy</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
                           </ul>
                         </li>
                         <li className="accordion-li">
                           <div className="link">INSIGHTS<i className="fa fa-chevron-down" id="arrow_m" />
                           </div>
                           <ul className="submenu">
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Medtech</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Fintech – Credit
-                                Union</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Geospatial</a>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Medtech</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Fintech – Credit
+                              Union</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Geospatial</a>
                               <img src={"./img/nav/diamond_arrow.png"} id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}> Biotech / Bio
-                                chemical /Chemical Engineering</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Nanotech</a>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}> Biotech / Bio
+                              chemical /Chemical Engineering</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Nanotech</a>
                               <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Age Care and
-                                Retirement</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Cruise and
-                                Tourism</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Industrial
-                                Equipment</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Metal
-                                Industry</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Construction</a>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Age Care and
+                              Retirement</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Cruise and
+                              Tourism</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Industrial
+                              Equipment</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Metal
+                              Industry</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Construction</a>
                               <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Manufacturing</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>High Tech</a>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Manufacturing</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>High Tech</a>
                               <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Information
-                                Technology</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Agriculture</a>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Information
+                              Technology</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Agriculture</a>
                               <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Health care</a>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Health care</a>
                               <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Utilities and
-                                Energy – Solar energy / Renewable</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Utilities and
+                              Energy – Solar energy / Renewable</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
                           </ul>
                         </li>
                         <li className="accordion-li">
                           <div className="link">INDUSTRIES<i className="fa fa-chevron-down" id="arrow_m" />
                           </div>
                           <ul className="submenu">
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Partnership And
-                                Programs</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>About
-                                Corporality</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>How We Work With
-                                Clients</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Sustainable
-                                Growth</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Strategy And
-                                Consulting</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Interactive
-                                Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Inclusion And
-                                Diversity</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Partnership And
+                              Programs</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>About
+                              Corporality</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>How We Work With
+                              Clients</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Sustainable
+                              Growth</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Strategy And
+                              Consulting</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Interactive
+                              Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Inclusion And
+                              Diversity</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
                           </ul>
                         </li>
                         <li className="accordion-li">
                           <div className="link">CAREERS<i className="fa fa-chevron-down" id="arrow_m" />
                           </div>
                           <ul className="submenu">
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Partnership And
-                                Programs</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>About
-                                Corporality</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>How We Work With
-                                Clients</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Sustainable
-                                Growth</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Strategy And
-                                Consulting</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Interactive
-                                Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1"><a href="#" style={{color: 'black'}}>Inclusion And
-                                Diversity</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Partnership And
+                              Programs</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>About
+                              Corporality</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>How We Work With
+                              Clients</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Sustainable
+                              Growth</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Strategy And
+                              Consulting</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Interactive
+                              Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Inclusion And
+                              Diversity</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
                           </ul>
                         </li>
                         <li className="accordion-li">
@@ -145,7 +145,7 @@ function Navbar() {
                         <li className="number_li">
                           <div className="number-link">
                             <a href="#" className="contactno_a"><button className="nav-li-number">+61 2
-                                89099009</button></a></div>
+                              89099009</button></a></div>
                         </li>
                       </div>
                     </ul>
@@ -160,35 +160,35 @@ function Navbar() {
                         <img src="../img/nav/left1.png" className="about-left-1" />
                         <ul className="about-column-1">
                           <li className="about_point1_li"><a href="#" className="about-point1">Partnership And
-                              Programs</a>
+                            Programs</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point1-img" />
                           </li>
                           <li className="about_point2_li"><a href="#" className="about-point2">About
-                              Corporality</a>
+                            Corporality</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point2-img" />
                           </li>
                           <li className="about_point3_li"><a href="#" className="about-point3">How We Work
-                              With Clients</a>
+                            With Clients</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point3-img" />
                           </li>
                         </ul>
                         <ul className="about-column-2">
                           <li className="about_point4_li"><a href="#" className="about-point4">Sustainable
-                              Growth</a>
+                            Growth</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point4-img" />
                           </li>
                           <li className="about_point5_li"><a href="#" className="about-point5">Strategy And
-                              Consulting</a>
+                            Consulting</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point5-img" />
                           </li>
                           <li className="about_point6_li"><a href="#" className="about-point6">Interactive
-                              Blueprint</a>
+                            Blueprint</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point6-img" />
                           </li>
                         </ul>
                         <ul className="about-column-3">
-                          <li className="about_point7_li"><a href="#" className="about-point7">Inclusion and
-                              Diversity</a>
+                          <li className="about_point7_li"><a href="/Inclusion_and_diversity" className="about-point7">Inclusion and
+                            Diversity</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point7-img" />
                           </li>
                         </ul>
@@ -200,37 +200,30 @@ function Navbar() {
                       <div className="services-sub">
                         <img src="../img/nav/left1.png" className="services-left-1" />
                         <ul className="services-column-1">
-                          <li className="services_point1_li"><a href="./allpages/OURSERVICES/gotomarketing.html" className="services-point1">Go-to-Marketing</a>
+                          <li className="services_point1_li"><a href="./allpages/OURSERVICES/gotomarketing.html" className="services-point1">Brand Positioning</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point1-img" />
                           </li>
-                          <li className="services_point2_li"><a href="./allpages/OURSERVICES/digitalmediamarketing.html" className="services-point2">Digital Media Marketing</a>
+                          <li className="services_point2_li"><a href="/Corporate_Strategy" className="services-point2">Corporate Strategy </a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point2-img" />
                           </li>
-                          <li className="services_point3_li"><a href="./allpages/OURSERVICES/marketingstrategyfor2021.html" className="services-point3">Marketing Strategy</a>
+                          <li className="services_point3_li"><a href="/HomePage" className="services-point3">Digital Media Marketing</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point3-img" />
                           </li>
                         </ul>
                         <ul className="services-column-2">
-                          <li className="services_point4_li"><a href="./allpages/OURSERVICES/professionalpracticesstrategy.html" className="services-point4">Professional Practice Strategy</a>
+                          <li className="services_point4_li"><a href="/Go_to_marketing" className="services-point4">Go To Marketing Strategy</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point4-img" />
                           </li>
-                          <li className="services_point5_li"><a href="./allpages/OURSERVICES/corporatestrategy.html" className="services-point5">Corporate Strategy</a>
+                          <li className="services_point5_li"><a href="/Interactive_Blue_Print" className="services-point5">Interactive Blueprint</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point5-img" />
                           </li>
-                          <li className="services_point6_li"><a href="./allpages/OURSERVICES/productstrategy.html" className="services-point6">Product Strategy</a>
+                          <li className="services_point6_li"><a href="/CxoStrategy" className="services-point6">Outsourced CXO</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point6-img" />
                           </li>
                         </ul>
                         <ul className="services-column-3">
-                          <li className="services_point7_li"><a href="./allpages/OURSERVICES/websiteblueprint.html" className="services-point7">Website Blueprint</a>
+                          <li className="services_point7_li"><a href="StrategyConsultancy" className="services-point7">Strategic Consulting</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point7-img" />
-                          </li>
-                          <li className="services_point8_li"><a href="./allpages/OURSERVICES/ledgenandsalesstrategy.html" className="services-point8">Lead Gen and Sales Strategy</a>
-                            <img src="./img/nav/diamond_arrow.png" className="services-point8-img" />
-                          </li>
-                          <li className="services_point9_li"><a href="#" className="services-point9">Brand
-                              Strategy</a>
-                            <img src="./img/nav/diamond_arrow.png" className="services-point9-img" />
                           </li>
                         </ul>
                         <img src="../img/nav/right1.png" className="services-right-1" />
@@ -245,36 +238,36 @@ function Navbar() {
                             <img src="./img/nav/diamond_arrow.png" className="insights-point1-img" />
                           </li>
                           <li className="insights_point2_li"><a href="#" className="insights-point2">Fintech –
-                              Credit Union</a>
+                            Credit Union</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point2-img" />
                           </li>
                           <li className="insights_point3_li"><a href="#" className="insights-point3">Geospatial</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point3-img" />
                           </li>
                           <li className="insights_point4_li"><a href="#" className="insights-point4">Biotech /
-                              Bio chemical /<br />Chemical Engineering</a>
+                            Bio chemical /<br />Chemical Engineering</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point4-img" />
                           </li>
                         </ul>
-                        <ul className="insights-column-2" style={{marginTop: '4.1%'}}>
+                        <ul className="insights-column-2" style={{ marginTop: '4.1%' }}>
                           <li className="insights_point5_li"><a href="#" className="insights-point5">Nanotech</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point5-img" />
                           </li>
                           <li className="insights_point6_li"><a href="#" className="insights-point6">Age Care
-                              and Retirement</a>
+                            and Retirement</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point6-img" />
                           </li>
                           <li className="insights_point7_li"><a href="#" className="insights-point7">Cruise
-                              and Tourism</a>
+                            and Tourism</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point7-img" />
                           </li>
                           <li className="insights_point8_li"><a href="#" className="insights-point8">Industrial Equipment</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point8-img" />
                           </li>
                         </ul>
-                        <ul className="insights-column-3" style={{marginTop: '-18.7%'}}>
+                        <ul className="insights-column-3" style={{ marginTop: '-18.7%' }}>
                           <li className="insights_point9_li"><a href="#" className="insights-point9">Metal
-                              Industry</a>
+                            Industry</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point9-img" />
                           </li>
                           <li className="insights_point10_li"><a href="#" className="insights-point10">Construction</a>
@@ -287,21 +280,21 @@ function Navbar() {
                             <img src="./img/nav/diamond_arrow.png" className="insights-point12-img" />
                           </li>
                         </ul>
-                        <ul className="insights-column-4" style={{marginTop: '-21.3%', marginLeft: '55%'}}>
+                        <ul className="insights-column-4" style={{ marginTop: '-21.3%', marginLeft: '55%' }}>
                           <li className="insights_point13_li"><a href="#" className="insights-point13">High
-                              Tech</a>
+                            Tech</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point13-img" />
                           </li>
                           <li className="insights_point14_li"><a href="#" className="insights-point14">Agriculture</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point14-img" />
                           </li>
                           <li className="insights_point15_li"><a href="#" className="insights-point15">Health
-                              care</a>
+                            care</a>
                             <img src="./img/nav/diamond_arrow.png" className="insights-point15-img" />
                           </li>
                           <li className="insights_point16_li"><a href="#" className="insights-point16">Utilities and Energy – Solar<br />energy /
-                              Renewable</a>
-                            <img src="./img/nav/diamond_arrow.png" className="insights-point16-img" style={{marginTop: '-6%'}} />
+                            Renewable</a>
+                            <img src="./img/nav/diamond_arrow.png" className="insights-point16-img" style={{ marginTop: '-6%' }} />
                           </li>
                         </ul>
                         <img src="../img/nav/right1.png" className="insights-right-1" />
@@ -349,7 +342,7 @@ function Navbar() {
                       <div className="indus-sub">
                         <img src="../img/nav/left1.png" className="indus-left-1" />
                         <ul className="indus-column-1">
-                          <li className="indus_point1_li"><a href="#" className="indus-point1" id="indus-li-1">Partnership And Programs</a>
+                          <li className="indus_point1_li"><a href="/patnership" className="indus-point1" id="indus-li-1">Partnership And Programs</a>
                             <img src="./img/nav/diamond_arrow.png" className="indus-point1-img" />
                           </li>
                           <li className="indus_point2_li"><a href="#" className="indus-point2" id="indus-li-2">About Corporality</a>
@@ -415,7 +408,7 @@ function Navbar() {
                     </li>
                     <li className="contact_li"><a href="./allpages/contact.html" className="nav-a">CONTACT</a></li>
                     <li className="number_li"><a href="#" className="contactno_a"><button className="nav-li-number">+61
-                          2 89099009</button></a></li>
+                      2 89099009</button></a></li>
                   </ul>
                   {/* <img src="../img/nav/npi_final.jpg" class="industries_pointer"> */}
                 </nav>
@@ -424,11 +417,11 @@ function Navbar() {
           </div>
           {/*container div*/}
         </nav>
-        
+
       </section>
       {/* Nav Bar End */}
-    </div>  
-    );
+    </div>
+  );
 }
 
 export default Navbar;

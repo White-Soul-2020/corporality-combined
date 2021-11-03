@@ -1,0 +1,630 @@
+
+
+.patnership_banner1{
+    height: 580px;
+    width: 100%;
+    display: flex;
+    margin-top: 150px;
+    overflow: hidden;
+  }
+   .patnership_banner{
+     height: 580px;
+     display: flex;
+     width: 99.9%;
+   }
+  .patnership_banner_left{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+  }
+  .patnership_banner_left h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 30px;
+  text-transform: uppercase !important;
+ 
+  color: #33657E;
+  }
+  .patnership_banner_left p{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  
+  margin-top: -15px;
+  margin-left: 45px;
+  color: #232323;
+  }
+  .patnership_banner_left img{
+   
+   margin-left: 400px;
+   margin-top: -20px;
+  }
+  .patnership_banner_right{
+   position: relative;
+    margin-left: 100px; 
+   width: 50%;
+   
+   height: 100%;
+  }
+  .patnership_banner_image{
+   position: relative;
+   
+   width: fit-content;
+   margin:auto;
+   margin-left: 150px;
+   margin-top: 100px;
+  }
+  .patnership_banner_image_bkg{
+   position: absolute;
+   top: -80px;
+   left: -40px;
+   z-index: -1;
+  
+  }
+  .banner_right_inner{
+   
+   width: 350px;
+   height: 352.19px;
+   
+   transform: rotate(45deg);
+   overflow: hidden;
+   z-index: 10;
+  }
+  .banner_right_inner img{
+   width: 510px;
+   height: 512.19px;
+   margin-top: -80px;
+   margin-left: -80px;
+   transform: rotate(-45deg);
+  
+   transition: all 0.8s ease;
+   z-index: 100;
+  }
+  .banner_right_inner:hover img {
+   transform: scale(1.03) rotate(-45deg);
+  }
+  .banner_right_img5{
+   position: absolute;
+   top: 100px;
+   
+  }
+  .banner_right_img4{
+   position: absolute;
+   top: 330px;
+   left: 60px;
+   z-index: -1;
+  }
+  .banner_right_img3{
+   margin-top: 0px;
+   margin-left: 230px;
+  }
+  .patnership_overlay{
+   position: relative;
+   height: 80%;
+   width: 477px;
+   margin-top: 140px;
+   bottom: 0;
+   margin-left: -300px;
+   
+   z-index: -1;
+   background: #fff;
+   
+  
+  }
+  .patnership_ellipse-1 {
+   position: absolute;
+   width: 477px;
+  
+   height: 466px;
+  z-index: 10;
+   background: rgba(255, 239, 165, 0.3);
+   filter: blur(100px); 
+  
+  }
+
+#banner-btn {
+    padding: 12px 20px;
+    width: 149px;
+    height: 42px;
+    margin-top: 1.5%;
+    margin-left: -105.3%;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    /* background: #a16bb8; */
+    /* background-color: #6da0bb !important; */
+    background: linear-gradient(95.12deg, #eed979 0%, #4f8cad 50.42%);
+    background-size: 200% 100% !important;
+    border: medium none;
+    color: #ffffff !important;
+    transition: all 0.2s ease-in-out 0s !important;
+  }
+
+  #banner-btn:hover {
+    background-position: 100% 0;
+    background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 50.42%);
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+
+
+
+
+  .patnership_our-faith{
+    position: relative;
+  }
+ 
+   .patnership_our-faith-main{
+     position: relative;
+     z-index: 1;
+     width: 99.9%;
+    
+   }
+   .patnership_our-faith-wrapper{
+     margin-left: -350px;
+   }
+   
+   .patnership_our-faith-back{
+     position: relative;
+     display: flex;
+     
+     height: 504px;
+     background: #FFFFFF;
+   }
+   
+    .patnership_our-faith-image{
+      position: relative;
+     margin-left: 150px;
+ 
+   } 
+   
+   .patnership_our-faith-rect7{
+   position: absolute;
+   z-index: 1;
+   width: 158.65px;
+   height: 158.65px;
+   top: -80px;
+   left: 130px;
+   }
+   
+   .patnership_our-faith-rect8{
+     position: absolute; 
+   width: 110px;
+   height: 110px;
+   z-index: 100;
+   top: 90px;
+   left: 100px;
+   }
+   
+   .patnership_our-faith-rect9{
+     position: absolute;
+   width: 80.81px;
+   height: 80.12px;
+   z-index: 100;
+   top: 220px;
+   left: 80px;
+   }
+   
+   .patnership_our-faith-main-img{
+     position: relative;
+     z-index: 10;
+   width: 298.04px;
+   height: 300px;
+   left: 140px;
+   top: 125px;
+   overflow: hidden;
+   
+   transform: rotate(45deg);
+   }
+   
+   .patnership_our-faith-main-img img{
+     transform: rotate(-45deg) !important;
+     width: 143%;
+     height: 143%;
+     margin-top: -21.5%;
+     margin-left: -21.5%;
+     transition: all 0.6s linear;
+   }
+   
+   .patnership_our-faith-main-img:hover img{
+     transform: scale(1.03) rotate(-45deg) !important;
+   
+   }
+   
+   
+   
+   .patnership_our-faith-vector{
+     position: relative;
+   width: 94.64px;
+   height: 89.61px;
+   left: 422.85px;
+   top: 20.13px;
+   
+   }
+   
+   .patnership_our-faith-rect8-p{
+     position: relative;
+   width: 40.32px;
+   height: 40.32px;
+   left: 330.75px;
+   
+   top: 30px;
+   } 
+   .patnership_our-faith-text{
+     margin-top: 0px;
+     margin-left: -1000px;
+   }
+   
+   .patnership_our-faith-head{
+     position: relative;
+   width: 677px;
+   left: 400px;
+   top: 121px;
+   margin-bottom: 30px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 44px;
+   
+   
+   text-transform: uppercase;
+   
+   color: #3C708E;
+   
+   }
+   
+   .patnership_our-faith-para{
+     position: relative;
+   width: 530px;
+   height: 208px;
+   left: 400px;
+   top: 114px;
+   
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   
+   color: #757575;
+   }
+#conversations-partnership-btn{
+    padding: 12px 20px;
+    width: 238px;
+    height: 42px;
+    margin-left: 400px;
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    /* background: #a16bb8; */
+    /* background-color: #6da0bb !important; */
+    background: linear-gradient(95.12deg, #eed979 0%, #4f8cad 50.42%);
+    background-size: 200% 100% !important;
+    border: medium none;
+    color: #ffffff !important;
+    transition: all 0.2s ease-in-out 0s !important;
+}
+#conversations-partnership-btn:hover{
+    background-position: 100% 0;
+    background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 50.42%);
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+/* We-make-banner css strat from here  */
+
+.patnership_we-make-banner-div {
+  position: relative;
+  height: 378px;
+  padding-bottom: 200px;
+  left: 1px;
+  top: 0px;
+
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.9),
+    rgba(255, 255, 255, 0.9)
+  );
+}
+
+.patnership_we-make-banner-rect12 {
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 93.04px;
+  top: 270.01px;
+  /* transform: rotate(36.7deg); */
+}
+
+.patnership_we-make-banner-rect8 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 154.01px;
+  top: 321.01px;
+  /* transform: rotate(36.7deg); */
+}
+
+.patnership_we-make-banner-rect11 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 204.94px;
+  top: 375px;
+  /* transform: rotate(36.7deg); */
+}
+
+.patnership_we-make-banner-rect7 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  left: 682px;
+  top: 30px;
+}
+
+.patnership_we-make-banner-rect9 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 1087.94px;
+  top: 132px;
+}
+.patnership_we-make-banner-rect10 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 645.93px;
+  top: 260px;
+  transform: rotate(1.7deg);
+}
+.patnership_we-make-banner-img-p .patnership_rec-arrow {
+  position: absolute;
+  left: 659.93px;
+  right: -54.69%;
+  top: 267px;
+  bottom: -82.84%;
+}
+
+.patnership_paralax-rect {
+  background: url(./img/Rectangle\ 5.png);
+  width: 8000px;
+  height: 405px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: -210%;
+}
+
+.patnership_we-make-banner-img-p .patnership_rec-p {
+  position: absolute;
+  width: 145px;
+  height: 16px;
+  left: 702.93px;
+  top: 265px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #232323;
+}
+
+.patnership_we-make-banner-rect4 {
+  position: absolute;
+  width: 175px;
+  height: 45px;
+  left: 683px;
+  top: 285px;
+  /* border: solid black; */
+}
+
+.patnership_we-make-banner-rect4 a {
+  position: absolute;
+  width: 176px;
+  height: 47px;
+  left: 0px;
+  top: 0px;
+  background-size: 200% 100% !important;
+  border: medium none;
+  transition: all 0.2s ease-in-out 0s !important;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 10px;
+  /* color: #fff; */
+  color: #3c708e;
+  font-size: 14px;
+}
+.patnership_we-make-banner-rect4 a:hover {
+  background-position: 100% 0;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  color: #fff;
+  background-color: #6da0bb !important;
+  background-image: linear-gradient(95.12deg, #eed979 55%, #6ca0bc 83.42%);
+}
+
+.patnership_we-make-banner-head h4 {
+  position: absolute;
+  width: 651px;
+  height: 88px;
+  left: 415px;
+  top: 106px;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  /* or 125% */
+
+  text-align: center;
+
+  color: #3c708e;
+}
+
+.patnership_we-make-banner-head p {
+  position: absolute;
+  width: 688px;
+  height: 44px;
+  left: 424px;
+  top: 161px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #232323;
+  margin-left: -0.17%;
+}
+
+#patnership_wemake-btn {
+  transition: all 0.5s ease;
+  color: #232323;
+  font-size: 14px;
+  font-weight: 400;
+  border: 2px solid;
+  width: 150px;
+  height: 40px;
+  border-image: linear-gradient(95.12deg, #eed979 0%, #4f8cad 50.42%) 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: transparent;
+  /* padding: 5px; */
+  outline: none;
+ 
+  margin-left: 700px;
+  
+  
+}
+
+#patnership_wemake-btn:hover {
+  background-position: 110px 110px;
+  background-size: 110%;
+  border: none;
+  /* border-image: linear-gradient(95.12deg, #4f8cad 0%,  #eed979 50.42%) 1; */
+  background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 75.42%);
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  color: #FFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+.stp {
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+}
+
+.stp-wrapper {
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    padding: 50px 20px 20px 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stp-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.stp-top h2 {
+    margin-bottom: 8px;
+
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #3C708E;
+}
+
+.stp-top p {
+    width: 100%;
+    max-width: 690px;
+    margin-top: 8px;
+
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #757575;
+}
+
+
+
+.stp-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
