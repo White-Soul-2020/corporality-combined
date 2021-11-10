@@ -230,7 +230,7 @@ body {
   text-transform: uppercase;
 }
 
-#banner-btn {
+.banner_content > #banner-btn {
   padding: 12px 20px;
   width: 217px;
   height: 42px;

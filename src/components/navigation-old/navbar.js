@@ -20,10 +20,7 @@ function Navbar() {
             {/*main container div*/}
             <div className="navbar">
               <i className="bx bx-menu" />
-              <div className="nav_logo">
-                <a href="https://corporality-home.web.app/">      
-                  <img src="./img/logo/logo-fnal-box-1-e1605580586370.png" style={{ width: '250px', marginTop: '-2.5px', marginLeft: '49%' }} className="nav-logo-img" /></a>
-              </div>
+              <div className="nav_logo"><img src="./img/logo/logo-fnal-box-1-e1605580586370.png" style={{ width: '250px', marginTop: '-2.5px', marginLeft: '49%' }} className="nav-logo-img" /></div>
               <div className="nav-links">
                 <div className="sidebar-logo">
                   <span className="logo-name" />
@@ -46,7 +43,7 @@ function Navbar() {
                               Consulting</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
                             <li id="about-point1"><a href="#" style={{ color: 'black' }}>Interactive
                               Blueprint</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
-                            <li id="about-point1" ><a href="#" style={{ color: 'black' }}>Inclusion And
+                            <li id="about-point1"><a href="#" style={{ color: 'black' }}>Inclusion And
                               Diversity</a> <img src="./img/nav/diamond_arrow.png" id="about-point1-img" /></li>
                           </ul>
                         </li>
@@ -162,7 +159,7 @@ function Navbar() {
                       <div className="about-sub" id="abt-sub">
                         <img src="../img/nav/left1.png" className="about-left-1" />
                         <ul className="about-column-1">
-                          <li className="about_point1_li"><a href="https://corporality-react.web.app/patnership" className="about-point1">Partnership And
+                          <li className="about_point1_li"><a href="#" className="about-point1">Partnership And
                             Programs</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point1-img" />
                           </li>
@@ -180,21 +177,17 @@ function Navbar() {
                             Growth</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point4-img" />
                           </li>
-                          <li className="about_point5_li"><a href="https://strategy-consultingcorporality.web.app/" className="about-point5">Strategy And
+                          <li className="about_point5_li"><a href="#" className="about-point5">Strategy And
                             Consulting</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point5-img" />
                           </li>
-                          <li className="about_point6_li"><a href="https://corporality-react.web.app/Interactive_Blue_Print" className="about-point6">Interactive
+                          <li className="about_point6_li"><a href="#" className="about-point6">Interactive
                             Blueprint</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point6-img" />
                           </li>
                         </ul>
-                        <ul className="in-3">
-                          {/* <li className="about_point7_li"><a href="/Inclusion_and_diversity" className="about-point7">Inclusion and
-                            Diversity</a>
-                            <img src="./img/nav/diamond_arrow.png" className="about-point7-img" />
-                          </li> */}
-                          <li className="about_point7_li"><a href="https://corporality-react.web.app/Inclusion_and_diversity" className="about-point7">Inclusion and
+                        <ul className="about-column-3">
+                          <li className="about_point7_li"><a href="/Inclusion_and_diversity" className="about-point7">Inclusion and
                             Diversity</a>
                             <img src="./img/nav/diamond_arrow.png" className="about-point7-img" />
                           </li>
@@ -207,30 +200,34 @@ function Navbar() {
                       <div className="services-sub">
                         <img src="../img/nav/left1.png" className="services-left-1" />
                         <ul className="services-column-1">
-                          <li className="services_point1_li"><a href="#" className="services-point1">Brand Positioning</a>
+                          <li className="services_point1_li"><a href="./allpages/OURSERVICES/gotomarketing.html" className="services-point1">Brand Positioning</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point1-img" />
                           </li>
+                          {/* <li className="services_point2_li"><a href="/Corporate_Strategy" className="services-point2">Corporate Strategy </a> */}
                           <li className="services_point2_li"><a href="https://corporality-react.web.app/Corporate_Strategy" className="services-point2">Corporate Strategy </a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point2-img" />
                           </li>
-                          <li className="services_point3_li"><a href="/digitalMarketing" className="services-point3">Digital Media Marketing</a>
-
-                          {/* <li className="services_point3_li"><a href="https://corporality-react.web.app/digitalMarketing" className="services-point3">Digital Media Marketing</a> */}
+                          {/* <li className="services_point3_li"><a href="/digitalMarketing" className="services-point3">Digital Media Marketing</a> */}
+                          <li className="services_point3_li"><a href="https://corporality-react.web.app/digitalMarketing" className="services-point3">Digital Media Marketing</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point3-img" />
                           </li>
                         </ul>
                         <ul className="services-column-2">
+                          {/* <li className="services_point4_li"><a href="/Go_to_marketing" className="services-point4">Go To Marketing Strategy</a> */}
                           <li className="services_point4_li"><a href="https://corporality-react.web.app/Go_to_marketing" className="services-point4">Go To Marketing Strategy</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point4-img" />
                           </li>
+                          {/* <li className="services_point5_li"><a href="/Interactive_Blue_Print" className="services-point5">Interactive Blueprint</a> */}
                           <li className="services_point5_li"><a href="https://corporality-react.web.app/Interactive_Blue_Print" className="services-point5">Interactive Blueprint</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point5-img" />
                           </li>
+                          {/* <li className="services_point6_li"><a href="/CxoStrategy" className="services-point6">Outsourced CXO</a> */}
                           <li className="services_point6_li"><a href="https://corporality-react.web.app/CxoStrategy" className="services-point6">Outsourced CXO</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point6-img" />
                           </li>
                         </ul>
                         <ul className="services-column-3">
+                          {/* <li className="services_point7_li"><a href="StrategyConsultancy" className="services-point7">Strategic Consulting</a> */}
                           <li className="services_point7_li"><a href="https://corporality-react.web.app/StrategyConsultancy" className="services-point7">Strategic Consulting</a>
                             <img src="./img/nav/diamond_arrow.png" className="services-point7-img" />
                           </li>
@@ -274,44 +271,46 @@ function Navbar() {
                             <img src="./img/nav/diamond_arrow.png" className="insights-point8-img" />
                           </li>
                         </ul>
-                        <ul className="insights-column-1 columnno-3">
-                          <li className="insights_point1_li"><a href="#" className="insights-point1">Metal Industry</a>
-                            <img src="./img/nav/diamond_arrow.png" className="insights-point1-img" />
+                        <ul className="insights-column-3" style={{ marginTop: '-18.7%' }}>
+                          <li className="insights_point9_li"><a href="#" className="insights-point9">Metal
+                            Industry</a>
+                            <img src="./img/nav/diamond_arrow.png" className="insights-point9-img" />
                           </li>
-                          <li className="insights_point2_li"><a href="#" className="insights-point2">Construction</a>
-                            <img src="./img/nav/diamond_arrow.png" className="insights-point2-img" />
+                          <li className="insights_point10_li"><a href="#" className="insights-point10">Construction</a>
+                            <img src="./img/nav/diamond_arrow.png" className="insights-point10-img" />
                           </li>
-                          <li className="insights_point3_li"><a href="#" className="insights-point3">Manufacture</a>
-                            <img src="./img/nav/diamond_arrow.png" className="insights-point3-img" />
+                          <li className="insights_point11_li"><a href="#" className="insights-point11">Manufacturing</a>
+                            <img src="./img/nav/diamond_arrow.png" className="insights-point11-img" />
                           </li>
-                          <li className="insights_point4_li"><a href="#" className="insights-point4" id="insights-point41">Information Technology</a>
-                            <img src="./img/nav/diamond_arrow.png" className="insights-point4-img " id="insights-point4-img1" />
-                          </li>
-                        </ul>
-                        <ul className="insights-column-1 columnno-4">
-                          <li className="insights_point1_li"><a href="#" className="insights-point1">High Tech</a>
-                            <img src="./img/nav/diamond_arrow.png" className="insights-point1-img" />
-                          </li>
-                          <li className="insights_point2_li"><a href="#" className="insights-point2">Agriculture</a>
-                            <img src="./img/nav/diamond_arrow.png" className="insights-point2-img" />
-                          </li>
-                          <li className="insights_point3_li"><a href="#" className="insights-point3">Health care</a>
-                            <img src="./img/nav/diamond_arrow.png" className="insights-point3-img" />
-                          </li>
-                          <li className="insights_point4_li"><a href="#" className="insights-point4">Utilities and Energy - Solar<br />energu / Renewable</a>
-                            <img src="./img/nav/diamond_arrow.png" className="insights-point4-img" />
+                          <li className="insights_point12_li"><a href="#" className="insights-point12">Information Technology</a>
+                            <img src="./img/nav/diamond_arrow.png" className="insights-point12-img" />
                           </li>
                         </ul>
-
-
+                        <ul className="insights-column-4" style={{ marginTop: '-21.3%', marginLeft: '55%' }}>
+                          <li className="insights_point13_li"><a href="#" className="insights-point13">High
+                            Tech</a>
+                            <img src="./img/nav/diamond_arrow.png" className="insights-point13-img" />
+                          </li>
+                          <li className="insights_point14_li"><a href="#" className="insights-point14">Agriculture</a>
+                            <img src="./img/nav/diamond_arrow.png" className="insights-point14-img" />
+                          </li>
+                          <li className="insights_point15_li"><a href="#" className="insights-point15">Health
+                            care</a>
+                            <img src="./img/nav/diamond_arrow.png" className="insights-point15-img" />
+                          </li>
+                          <li className="insights_point16_li"><a href="#" className="insights-point16">Utilities and Energy – Solar<br />energy /
+                            Renewable</a>
+                            <img src="./img/nav/diamond_arrow.png" className="insights-point16-img" style={{ marginTop: '-6%' }} />
+                          </li>
+                        </ul>
                         <img src="../img/nav/right1.png" className="insights-right-1" />
                       </div>
                     </li>
                     {/* industries */}
                     {/* <li class="industries_li"><a href="#" class="nav-a">INDUSTRIES </a>
-
+           
             <div class="industries-sub">
-
+            
                 <img src="../img/nav/left1.png" class="industries-left-1">
                 <ul class="industries-column-1">
         <li class="industries_point1_li"><a href="#" class="industries-point1">Partnership And Programs</a>
@@ -342,7 +341,7 @@ function Navbar() {
                     </li>
                 </ul>
                 <img src="../img/nav/right1.png" class="industries-right-1">
-            </div>
+            </div>      
   </li> */}
                     <li className="indus_li"><a href="#" className="nav-a">INDUSTRIES</a>
                       {/* <img src="../img/nav/nav_ptr.PNG" class="about_ptr"> */}
@@ -363,7 +362,6 @@ function Navbar() {
                           <li className="indus_point4_li"><a href="#" className="indus-point4" id="indus-li-4">Sustainable Growth</a>
                             <img src="./img/nav/diamond_arrow.png" className="indus-point4-img" />
                           </li>
-
                           <li className="indus_point5_li"><a href="#" className="indus-point5" id="indus-li-5">Strategy And Consulting</a>
                             <img src="./img/nav/diamond_arrow.png" className="indus-point5-img" />
                           </li>
@@ -372,7 +370,7 @@ function Navbar() {
                           </li>
                         </ul>
                         <ul className="indus-column-3">
-                          <li className="indus_point7_li"><a href="https://corporality-react.web.app/Inclusion_and_diversity" className="indus-point7" id="indus-li-7">Inclusion and Diversity</a>
+                          <li className="indus_point7_li"><a href="#" className="indus-point7" id="indus-li-7">Inclusion and Diversity</a>
                             <img src="./img/nav/diamond_arrow.png" className="indus-point7-img" />
                           </li>
                         </ul>
@@ -399,7 +397,6 @@ function Navbar() {
                           <li className="indus_point4_li"><a href="#" className="indus-point4" id="indus-li-4">Sustainable Growth</a>
                             <img src="./img/nav/diamond_arrow.png" className="indus-point4-img" />
                           </li>
-
                           <li className="indus_point5_li"><a href="#" className="indus-point5" id="indus-li-5">Strategy And Consulting</a>
                             <img src="./img/nav/diamond_arrow.png" className="indus-point5-img" />
                           </li>
@@ -415,6 +412,7 @@ function Navbar() {
                         <img src="../img/nav/right1.png" className="indus-right-1" />
                       </div>
                     </li>
+                    {/* <li className="contact_li"><a href="./allpages/contact.html" className="nav-a">CONTACT</a></li> */}
                     <li className="contact_li"><a href="https://corporality-about.web.app/contact" className="nav-a">CONTACT</a></li>
                     <li className="number_li"><a href="#" className="contactno_a"><button className="nav-li-number">+61
                       2 89099009</button></a></li>

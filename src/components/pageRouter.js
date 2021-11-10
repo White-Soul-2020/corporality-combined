@@ -4,7 +4,7 @@ import '../App.css'
 export default function PagesRouter(props) {     
     return (
         <div>
-           <title>Corporality Pages</title>
+           {/* <title>Corporality Pages</title>
             <div className="app">
                <h1> Nishant and Ankit's Work</h1>
                 <div className="app_link">
@@ -22,7 +22,7 @@ export default function PagesRouter(props) {
                     <a className="link" href="/strategyConsultancy">Here</a>
                     strategyConsultancy</h4>
                 </div>
-            </div>
+            </div> */}
            
         </div>
     )

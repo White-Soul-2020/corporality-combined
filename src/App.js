@@ -14,13 +14,9 @@ function App() {
   return (
     <div className="App">
       <Router>
-<<<<<<< HEAD
         <Route component={Home} exact path="/" />
-        <Route component={HomePage} exact path="/HomePage" />
-=======
         <Route component={PagesRouter} exact path="/" />
         <Route component={DigitalMarketing} exact path="/DigitalMarketing" />
->>>>>>> c3a62508e5eb3c76b5a2e4d8cfee35a02dcb6100
         <Route component={CxoStrategy} exact path="/CxoStrategy" />
         <Route component={StrategyConsultancy} exact path="/StrategyConsultancy" />
         <Route component={Interactive_Blue_Print} exact path="/Interactive_Blue_Print" />
